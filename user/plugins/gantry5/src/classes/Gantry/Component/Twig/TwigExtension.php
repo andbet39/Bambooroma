@@ -25,6 +25,16 @@ class TwigExtension extends \Twig_Extension
     use GantryTrait;
 
     /**
+     * Returns extension name.
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return 'GantryTwig';
+    }
+
+    /**
      * Return a list of all filters.
      *
      * @return array

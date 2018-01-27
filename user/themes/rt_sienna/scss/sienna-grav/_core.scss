@@ -1,0 +1,130 @@
+// Single Article
+.list-blog-header {
+    h2 {
+        font-family: get-font-family($font-family-title);
+        font-size: $h1-font-size;
+        font-weight: $font-weight-light;
+        line-height: $core-line-height - 0.35;
+        margin-top: 2rem;
+        margin-bottom: $content-margin;
+        padding-bottom: $content-padding;
+        a {
+            color: $accent-color-1;
+            &:hover {
+                color: $accent-color-1;
+            }
+        }
+        @include breakpoint(desktop-range) {
+            font-size: $core-font-size + 1.75;
+        }
+        @include breakpoint(tablet-range) {
+            font-size: $core-font-size + 1.5;
+        }
+        @include breakpoint(mobile-only) {
+            font-size: $core-font-size + 1;
+        }
+    }
+}
+
+
+.list-item p, .item-page .g-content p {
+    font-size: $core-font-size + 0.15;
+
+    @include breakpoint(tablet-range) {
+        font-size: $core-font-size + 0.1;
+    }
+    @include breakpoint(mobile-only) {
+        font-size: $core-font-size;
+    }
+}
+
+// Blog
+.list-blog, .list-item {
+    .list-blog-row {
+        margin-bottom: $content-margin;
+        padding-bottom: $content-padding;
+    }
+
+    .g-lead {
+        font-size: $core-font-size + 0.5;
+        padding-bottom: $content-padding * 2;
+
+        @include breakpoint(tablet-range) {
+            font-size: $core-font-size + 0.25;
+        }
+        @include breakpoint(mobile-only) {
+            font-size: $core-font-size;
+        }
+    }
+}
+
+// MODULE STYLING
+
+.moduletable {
+    // Menu, Most Read, Latest News, Archive Module, Related Items, Categories Module, Category Module, Latest Users, Unstyled
+    .nav.menu,
+    .mostread,
+    .latestnews,
+    .archive-module,
+    .relateditems,
+    .categories-module,
+    .category-module,
+    .latestusers,
+    .unstyled {
+        margin: 0;
+        display: inline-block;
+        border: 1px solid $rule-color;
+        padding: $content-padding ($content-padding * 2);
+        border-radius: $border-radius + 2;
+
+        li {
+            list-style-type: none;
+            margin-left: 0;
+            padding-bottom: $content-padding;
+            margin-bottom: $content-margin;
+            border-bottom: 1px solid $rule-color;
+
+            &:last-child {
+                border-bottom: 0;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+
+            a {
+                display: inline-block;
+
+                &:before {
+                    color: $accent-color-1;
+                    font-family: FontAwesome;
+                    content: "\f178";
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+    }
+
+    // General Nav
+    .nav {
+        li {
+            margin-bottom: $content-margin;
+        }
+
+        .nav-header {
+            margin: $content-margin 0;
+            padding: ($content-padding / 2) $content-padding;
+            font-size: $core-font-size - 0.3;
+            font-weight: $font-weight-regular;
+            border-radius: $border-radius;
+            color: $base-text-color;
+            background: darken($base-background, 12%);
+        }
+
+        .nav-child {
+            margin-top: $content-margin;
+        }
+    }
+}
+
+small {
+    font-size: 85%;
+}

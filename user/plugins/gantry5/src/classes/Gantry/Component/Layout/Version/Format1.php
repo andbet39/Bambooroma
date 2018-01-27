@@ -99,8 +99,7 @@ class Format1
 
         if (!empty($item->attributes->extra)) {
             foreach ($item->attributes->extra as $i => $extra) {
-                $v = reset($extra);
-                $k = key($extra);
+                list ($k, $v) = each($extra);
                 if ($k === 'id') {
                     $item->id = preg_replace('/^g-/', '', $v);
                     $item->attributes->id = $v;

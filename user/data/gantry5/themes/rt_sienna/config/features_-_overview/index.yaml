@@ -1,0 +1,17 @@
+name: features_-_overview
+timestamp: 1466265569
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1466236168
+positions:
+  sidebar: Sidebar
+  aside: Aside
+  copyright-a: 'Copyright A'
+  copyright-b: 'Copyright B'
+  copyright-c: 'Copyright C'
+  copyright-d: 'Copyright D'
+  copyright-e: 'Copyright E'
+  copyright-f: 'Copyright F'
+  copyright-g: 'Copyright G'
+  copyright-h: 'Copyright H'

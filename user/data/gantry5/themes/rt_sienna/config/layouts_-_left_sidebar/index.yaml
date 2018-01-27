@@ -1,0 +1,15 @@
+name: layouts_-_left_sidebar
+timestamp: 1466267795
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1466005216
+positions:
+  copyright-a: 'Copyright A'
+  copyright-b: 'Copyright B'
+  copyright-c: 'Copyright C'
+  copyright-d: 'Copyright D'
+  copyright-e: 'Copyright E'
+  copyright-f: 'Copyright F'
+  copyright-g: 'Copyright G'
+  copyright-h: 'Copyright H'
