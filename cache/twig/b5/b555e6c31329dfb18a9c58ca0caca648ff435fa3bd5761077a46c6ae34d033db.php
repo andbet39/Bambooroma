@@ -43,22 +43,25 @@ class __TwigTemplate_c6525b5c44071a9bd7a2d33733e9765df1748c3ad6e3591b753cdca1cdd
     public function block_input($context, array $blocks = array())
     {
         // line 9
-        echo "    <div class=\"form-select-wrapper ";
+        echo "    <div class=\"";
+        echo twig_escape_filter($this->env, ((($context["form_field_wrapper_classes"] ?? null)) ? (($context["form_field_wrapper_classes"] ?? null)) : ("form-select-wrapper")), "html", null, true);
+        echo " ";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "size", array()), "html", null, true);
+        echo " ";
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "wrapper_classes", array()), "html", null, true);
         echo "\">
         <select name=\"";
         // line 10
         echo twig_escape_filter($this->env, ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute(($context["field"] ?? null), "name", array()))) . (($this->getAttribute(($context["field"] ?? null), "multiple", array())) ? ("[]") : (""))), "html", null, true);
         echo "\"
-                ";
+                class=\"";
         // line 11
-        if ($this->getAttribute(($context["field"] ?? null), "classes", array(), "any", true, true)) {
-            echo "class=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "classes", array()), "html", null, true);
-            echo "\" ";
-        }
+        echo twig_escape_filter($this->env, ($context["form_field_select_classes"] ?? null), "html", null, true);
+        echo " ";
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "classes", array()), "html", null, true);
+        echo "\"
+                ";
         // line 12
-        echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "id", array(), "any", true, true)) {
             echo "id=\"";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "id", array()));
@@ -180,7 +183,7 @@ class __TwigTemplate_c6525b5c44071a9bd7a2d33733e9765df1748c3ad6e3591b753cdca1cdd
 
     public function getDebugInfo()
     {
-        return array (  166 => 32,  147 => 30,  144 => 29,  141 => 28,  137 => 27,  134 => 26,  124 => 25,  121 => 24,  115 => 22,  112 => 21,  105 => 20,  100 => 19,  95 => 18,  90 => 17,  85 => 16,  80 => 15,  75 => 14,  68 => 13,  61 => 12,  55 => 11,  51 => 10,  46 => 9,  43 => 8,  37 => 5,  32 => 4,  29 => 3,  11 => 1,);
+        return array (  169 => 32,  150 => 30,  147 => 29,  144 => 28,  140 => 27,  137 => 26,  127 => 25,  124 => 24,  118 => 22,  115 => 21,  108 => 20,  103 => 19,  98 => 18,  93 => 17,  88 => 16,  83 => 15,  78 => 14,  71 => 13,  65 => 12,  59 => 11,  55 => 10,  46 => 9,  43 => 8,  37 => 5,  32 => 4,  29 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -201,9 +204,9 @@ class __TwigTemplate_c6525b5c44071a9bd7a2d33733e9765df1748c3ad6e3591b753cdca1cdd
 {% endblock %}
 
 {% block input %}
-    <div class=\"form-select-wrapper {{ field.size }}\">
+    <div class=\"{{ form_field_wrapper_classes ?: 'form-select-wrapper' }} {{ field.size }} {{ field.wrapper_classes }}\">
         <select name=\"{{ (scope ~ field.name)|fieldName ~ (field.multiple ? '[]' : '') }}\"
-                {% if field.classes is defined %}class=\"{{ field.classes }}\" {% endif %}
+                class=\"{{ form_field_select_classes }} {{ field.classes }}\"
                 {% if field.id is defined %}id=\"{{ field.id|e }}\" {% endif %}
                 {% if field.style is defined %}style=\"{{ field.style|e }}\" {% endif %}
                 {% if field.disabled %}disabled=\"disabled\"{% endif %}

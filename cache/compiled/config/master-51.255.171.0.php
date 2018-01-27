@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1516989102,
-    'checksum' => 'b7c761c395a766a476fcdf18e7c711e8',
+    'timestamp' => 1517036153,
+    'checksum' => 'da16d1db51059968f4175e1585f95381',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1516989081
+            ],
+            'plugins/form' => [
+                'file' => 'user/config/plugins/form.yaml',
+                'modified' => 1517032849
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -24,6 +28,10 @@ return [
             'system' => [
                 'file' => 'user/config/system.yaml',
                 'modified' => 1516988888
+            ],
+            'themes/g5_helium' => [
+                'file' => 'user/config/themes/g5_helium.yaml',
+                'modified' => 1517033082
             ]
         ],
         'system/config' => [
@@ -55,7 +63,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1516988888
+                'modified' => 1517032826
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
@@ -748,6 +756,11 @@ return [
         ],
         'security' => [
             'salt' => 'TBds0PjqRcL9Iz'
+        ],
+        'themes' => [
+            'g5_helium' => [
+                'enabled' => true
+            ]
         ]
     ]
 ];

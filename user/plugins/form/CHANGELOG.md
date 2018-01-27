@@ -1,5 +1,17 @@
+# v2.11.2
+## 01/22/2018
+
+1. [](#new)
+    * Added support for markdown in all form fields for `label`, `help`, and `description` when `markdown: true` is set on field
+
+# v2.11.1
+## 12/18/2017
+
+1. [](#improved)
+    * Updated default fields to make them more consistent with class names
+
 # v2.11.0
-## mm/dd/2017
+## 12/05/2017
 
 1. [](#new)
     * Added ability to set `novalidate: true` on form definition to turn off all HTML5 form validation
