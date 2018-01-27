@@ -1,203 +1,203 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1517038653,
-    'checksum' => '264ad0a3a77cb43f5e05d2db764c2a77',
+    'timestamp' => 1517044867,
+    'checksum' => 'be9bf34343626c959e68eb4e1648273c',
     'files' => [
         'user/data/gantry5/themes/rt_sienna/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/index.yaml',
-                'modified' => 1517038498
+                'modified' => 1517044621
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/layout.yaml',
-                'modified' => 1517038322
+                'modified' => 1517044621
             ],
             'menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/menu.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/assets.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/body.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/head.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'particles/accordion' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/accordion.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/blockcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/blockcontent.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/bookblock' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookblock.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/bookingform' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookingform.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/content.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/contentarray.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/custom.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/date.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/gridcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridcontent.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/gridstatistic' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridstatistic.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/imagegrid' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/imagegrid.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/infolist' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/infolist.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/login.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/menu.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/messages.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/mobile-menu.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/newsletter' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/newsletter.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/owlcarousel.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/position.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/pricingtable' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/pricingtable.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/search' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/search.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplebooking' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplebooking.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplecontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecontent.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplecounter' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecounter.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplemenu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplemenu.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simpleweather' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simpleweather.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/spacer.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ]
         ],
         'user/themes/rt_sienna/config/default' => [
             'page/assets' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/assets.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'page/body' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/body.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'page/head' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/head.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/branding' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/logo' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/social' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/totop' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'styles' => [
                 'file' => 'user/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ]
         ]
     ],
@@ -420,11 +420,11 @@ return [
                 ],
                 'enabled' => '1',
                 'target' => '_self',
-                'link' => '1',
+                'link' => '0',
                 'url' => '',
-                'image' => '',
-                'text' => 'Bamboo B&B Roma',
-                'class' => 'g-logo',
+                'image' => 'gantry-media://logo.png',
+                'text' => '',
+                'class' => 'g-logo blogo',
                 'svg' => ''
             ],
             'menu' => [
@@ -959,7 +959,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1517038322,
+            'timestamp' => 1517044621,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -2030,6 +2030,13 @@ return [
                 ]
             ],
             'content' => [
+                'logo-5992' => [
+                    'attributes' => [
+                        'target' => '_self',
+                        'image' => 'gantry-media://logo.png',
+                        'class' => 'g-logo blogo'
+                    ]
+                ],
                 'menu-7876' => [
                     'block' => [
                         'variations' => 'align-right'

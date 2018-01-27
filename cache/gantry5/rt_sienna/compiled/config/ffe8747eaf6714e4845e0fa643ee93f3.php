@@ -1,222 +1,236 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1517038665,
-    'checksum' => '9e8b16f933a6b036756708a55dc967d5',
+    'timestamp' => 1517058550,
+    'checksum' => '57b83b1c7cdfdc981770efa21b11cd53',
     'files' => [
         'user/data/gantry5/themes/rt_sienna/config/home_-_particles' => [
             'assignments' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/home_-_particles/assignments.yaml',
-                'modified' => 1517038322
+                'modified' => 1517058546
             ],
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/home_-_particles/index.yaml',
-                'modified' => 1517038499
+                'modified' => 1517046610
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/home_-_particles/layout.yaml',
-                'modified' => 1517038322
+                'modified' => 1517046610
             ]
         ],
         'user/data/gantry5/themes/rt_sienna/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/index.yaml',
-                'modified' => 1517038498
+                'modified' => 1517044621
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/layout.yaml',
-                'modified' => 1517038322
+                'modified' => 1517044621
             ],
             'menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/menu.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/assets.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/body.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/head.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ],
             'particles/accordion' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/accordion.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/blockcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/blockcontent.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/bookblock' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookblock.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/bookingform' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookingform.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/content.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/contentarray.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/custom.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/date.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/gridcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridcontent.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/gridstatistic' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridstatistic.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/imagegrid' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/imagegrid.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/infolist' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/infolist.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/login.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/menu.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/messages.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/mobile-menu.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/newsletter' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/newsletter.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/owlcarousel.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/position.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/pricingtable' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/pricingtable.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/search' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/search.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplebooking' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplebooking.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplecontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecontent.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplecounter' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecounter.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simplemenu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplemenu.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/simpleweather' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simpleweather.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044580
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/spacer.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517038653
+                'modified' => 1517044581
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042138
             ]
         ],
         'user/themes/rt_sienna/config/default' => [
             'page/assets' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/assets.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'page/body' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/body.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'page/head' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/head.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/branding' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/logo' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/social' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'particles/totop' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ],
             'styles' => [
                 'file' => 'user/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517038322
+                'modified' => 1517042142
             ]
         ]
     ],
     'data' => [
         'particles' => [
+            'bambooform' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'button1' => 'Submit',
+                'button2' => 'Submit',
+                'name' => 'Name',
+                'name_placeholder' => 'Please enter your name',
+                'email' => 'Email',
+                'email_placeholder' => 'Please enter your email',
+                'thankyou' => 'Thank you for making your reservation. We will be contacting you soon about the details.',
+                'error' => 'Failed to send your reservation. Please try later or contact administrator.'
+            ],
             'accordion' => [
                 'caching' => [
                     'type' => 'static'
@@ -434,11 +448,11 @@ return [
                 ],
                 'enabled' => '1',
                 'target' => '_self',
-                'link' => '1',
+                'link' => '0',
                 'url' => '',
-                'image' => '',
-                'text' => 'Bamboo B&B Roma',
-                'class' => 'g-logo',
+                'image' => 'gantry-media://logo.png',
+                'text' => '',
+                'class' => 'g-logo blogo',
                 'svg' => ''
             ],
             'menu' => [
@@ -973,7 +987,7 @@ return [
         ],
         'index' => [
             'name' => 'home_-_particles',
-            'timestamp' => 1517038322,
+            'timestamp' => 1517046610,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1098,7 +1112,7 @@ return [
             ],
             'layout' => [
                 '/container-top/' => [
-                    'grid-2550' => [
+                    0 => [
                         0 => [
                             'topleft 10' => [
                                 
@@ -1106,7 +1120,7 @@ return [
                         ],
                         1 => [
                             'topmain 80' => [
-                                'grid-3939' => [
+                                0 => [
                                     0 => 'system-messages-9828'
                                 ]
                             ]
@@ -1119,7 +1133,7 @@ return [
                     ]
                 ],
                 '/container-navigation/' => [
-                    'grid-5503' => [
+                    0 => [
                         0 => [
                             'navigationleft 10' => [
                                 
@@ -1127,7 +1141,7 @@ return [
                         ],
                         1 => [
                             'navigationmain 80' => [
-                                'grid-3524' => [
+                                0 => [
                                     0 => 'logo-5992 15',
                                     1 => 'menu-7876 85'
                                 ]
@@ -1141,7 +1155,7 @@ return [
                     ]
                 ],
                 '/container-header/' => [
-                    'grid-1843' => [
+                    0 => [
                         0 => [
                             'headerleft 10' => [
                                 
@@ -1149,7 +1163,7 @@ return [
                         ],
                         1 => [
                             'headermain 80' => [
-                                'grid-1731' => [
+                                0 => [
                                     0 => 'owlcarousel-5908'
                                 ]
                             ]
@@ -1162,10 +1176,10 @@ return [
                     ]
                 ],
                 '/container-showcase/' => [
-                    'grid-4712' => [
+                    0 => [
                         0 => [
                             'showcasemain' => [
-                                'grid-9203' => [
+                                0 => [
                                     0 => 'spacer-1928 10',
                                     1 => 'bookingform-7187 80',
                                     2 => 'spacer-9286 10'
@@ -1175,7 +1189,7 @@ return [
                     ]
                 ],
                 '/container-slideshow/' => [
-                    'grid-9816' => [
+                    0 => [
                         0 => [
                             'slideshowleft 10' => [
                                 
@@ -1183,7 +1197,7 @@ return [
                         ],
                         1 => [
                             'slideshowmain 80' => [
-                                'grid-9066' => [
+                                0 => [
                                     0 => 'imagegrid-8152'
                                 ]
                             ]
@@ -1196,7 +1210,7 @@ return [
                     ]
                 ],
                 '/container-above/' => [
-                    'grid-1617' => [
+                    0 => [
                         0 => [
                             'aboveleft 10' => [
                                 
@@ -1215,7 +1229,7 @@ return [
                     ]
                 ],
                 '/container-utility/' => [
-                    'grid-5074' => [
+                    0 => [
                         0 => [
                             'utilityleft 10' => [
                                 
@@ -1234,7 +1248,7 @@ return [
                     ]
                 ],
                 '/container-feature/' => [
-                    'grid-3270' => [
+                    0 => [
                         0 => [
                             'featureleft 10' => [
                                 
@@ -1242,14 +1256,14 @@ return [
                         ],
                         1 => [
                             'featuremain 80' => [
-                                'grid-8860' => [
+                                0 => [
                                     0 => 'simplecontent-3417'
                                 ],
-                                'grid-4752' => [
+                                1 => [
                                     0 => 'simplecontent-3902 30',
                                     1 => 'imagegrid-2662 70'
                                 ],
-                                'grid-5484' => [
+                                2 => [
                                     0 => 'simplemenu-8939'
                                 ]
                             ]
@@ -1262,7 +1276,7 @@ return [
                     ]
                 ],
                 '/container-main/' => [
-                    'grid-9196' => [
+                    0 => [
                         0 => [
                             'sidebar 10' => [
                                 
@@ -1281,7 +1295,7 @@ return [
                     ]
                 ],
                 '/container-expanded/' => [
-                    'grid-4430' => [
+                    0 => [
                         0 => [
                             'expandedleft 10' => [
                                 
@@ -1289,10 +1303,10 @@ return [
                         ],
                         1 => [
                             'expandedmain 80' => [
-                                'grid-4438' => [
+                                0 => [
                                     0 => 'simplecontent-6137'
                                 ],
-                                'grid-7283' => [
+                                1 => [
                                     0 => 'simplebooking-2293'
                                 ]
                             ]
@@ -1305,7 +1319,7 @@ return [
                     ]
                 ],
                 '/container-extension/' => [
-                    'grid-7900' => [
+                    0 => [
                         0 => [
                             'extensionleft 10' => [
                                 
@@ -1324,7 +1338,7 @@ return [
                     ]
                 ],
                 '/container-bottom/' => [
-                    'grid-4519' => [
+                    0 => [
                         0 => [
                             'bottomleft 10' => [
                                 
@@ -1343,7 +1357,7 @@ return [
                     ]
                 ],
                 '/container-footer/' => [
-                    'grid-3100' => [
+                    0 => [
                         0 => [
                             'footerleft 10' => [
                                 
@@ -1351,7 +1365,7 @@ return [
                         ],
                         1 => [
                             'footermain 80' => [
-                                'grid-8057' => [
+                                0 => [
                                     0 => 'owlcarousel-1641'
                                 ]
                             ]
@@ -1364,7 +1378,7 @@ return [
                     ]
                 ],
                 '/container-copyright/' => [
-                    'grid-1984' => [
+                    0 => [
                         0 => [
                             'copyrightleft 10' => [
                                 
@@ -1372,25 +1386,25 @@ return [
                         ],
                         1 => [
                             'copyrightmain 80' => [
-                                'grid-1721' => [
+                                0 => [
                                     0 => 'simpleweather-6240 33.3',
                                     1 => 'newsletter-6777 33.3',
                                     2 => 'social-2831 33.3'
                                 ],
-                                'grid-9392' => [
+                                1 => [
                                     0 => 'spacer-3620'
                                 ],
-                                0 => [
+                                2 => [
                                     0 => 'simplemenu-7117 17',
                                     1 => 'simplemenu-2237 17',
                                     2 => 'simplemenu-3870 17',
                                     3 => 'simplemenu-8458 17',
                                     4 => 'simplecontent-3806 32'
                                 ],
-                                'grid-2239' => [
+                                3 => [
                                     0 => 'spacer-4015'
                                 ],
-                                'grid-5446' => [
+                                4 => [
                                     0 => 'copyright-5748'
                                 ]
                             ]
@@ -1403,7 +1417,7 @@ return [
                     ]
                 ],
                 'offcanvas' => [
-                    'grid-8965' => [
+                    0 => [
                         0 => 'mobile-menu-2702'
                     ]
                 ]
@@ -1420,11 +1434,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-3643'
-                    ]
-                ],
-                'grid-3939' => [
-                    'attributes' => [
-                        'id' => 'grid-3939'
                     ]
                 ],
                 'topmain' => [
@@ -1452,11 +1461,6 @@ return [
                         'id' => 'block-8210'
                     ]
                 ],
-                'grid-2550' => [
-                    'attributes' => [
-                        'id' => 'grid-2550'
-                    ]
-                ],
                 'container-top' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -1476,11 +1480,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-2056'
-                    ]
-                ],
-                'grid-3524' => [
-                    'attributes' => [
-                        'id' => 'grid-3524'
                     ]
                 ],
                 'navigationmain' => [
@@ -1507,11 +1506,6 @@ return [
                         'id' => 'block-4373'
                     ]
                 ],
-                'grid-5503' => [
-                    'attributes' => [
-                        'id' => 'grid-5503'
-                    ]
-                ],
                 'container-navigation' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -1531,11 +1525,6 @@ return [
                     'block' => [
                         'class' => 'g-side-column',
                         'id' => 'block-7097'
-                    ]
-                ],
-                'grid-1731' => [
-                    'attributes' => [
-                        'id' => 'grid-1731'
                     ]
                 ],
                 'headermain' => [
@@ -1563,11 +1552,6 @@ return [
                         'id' => 'block-6810'
                     ]
                 ],
-                'grid-1843' => [
-                    'attributes' => [
-                        'id' => 'grid-1843'
-                    ]
-                ],
                 'container-header' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -1575,11 +1559,6 @@ return [
                         'extra' => [
                             
                         ]
-                    ]
-                ],
-                'grid-9203' => [
-                    'attributes' => [
-                        'id' => 'grid-9203'
                     ]
                 ],
                 'showcasemain' => [
@@ -1593,11 +1572,6 @@ return [
                         'id' => 'block-4266',
                         'class' => 'g-middle-column',
                         'fixed' => '1'
-                    ]
-                ],
-                'grid-4712' => [
-                    'attributes' => [
-                        'id' => 'grid-4712'
                     ]
                 ],
                 'container-showcase' => [
@@ -1619,11 +1593,6 @@ return [
                     'block' => [
                         'class' => 'g-side-column',
                         'id' => 'block-1008'
-                    ]
-                ],
-                'grid-9066' => [
-                    'attributes' => [
-                        'id' => 'grid-9066'
                     ]
                 ],
                 'slideshowmain' => [
@@ -1648,11 +1617,6 @@ return [
                     'block' => [
                         'class' => 'g-side-column',
                         'id' => 'block-6923'
-                    ]
-                ],
-                'grid-9816' => [
-                    'attributes' => [
-                        'id' => 'grid-9816'
                     ]
                 ],
                 'container-slideshow' => [
@@ -1702,11 +1666,6 @@ return [
                         'id' => 'block-4556'
                     ]
                 ],
-                'grid-1617' => [
-                    'attributes' => [
-                        'id' => 'grid-1617'
-                    ]
-                ],
                 'container-above' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -1754,11 +1713,6 @@ return [
                         'id' => 'block-6130'
                     ]
                 ],
-                'grid-5074' => [
-                    'attributes' => [
-                        'id' => 'grid-5074'
-                    ]
-                ],
                 'container-utility' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -1779,21 +1733,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-2584'
-                    ]
-                ],
-                'grid-8860' => [
-                    'attributes' => [
-                        'id' => 'grid-8860'
-                    ]
-                ],
-                'grid-4752' => [
-                    'attributes' => [
-                        'id' => 'grid-4752'
-                    ]
-                ],
-                'grid-5484' => [
-                    'attributes' => [
-                        'id' => 'grid-5484'
                     ]
                 ],
                 'featuremain' => [
@@ -1819,11 +1758,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-9736'
-                    ]
-                ],
-                'grid-3270' => [
-                    'attributes' => [
-                        'id' => 'grid-3270'
                     ]
                 ],
                 'container-feature' => [
@@ -1861,11 +1795,6 @@ return [
                         'id' => 'block-8399'
                     ]
                 ],
-                'grid-9196' => [
-                    'attributes' => [
-                        'id' => 'grid-9196'
-                    ]
-                ],
                 'container-main' => [
                     'attributes' => [
                         'boxed' => '3'
@@ -1882,16 +1811,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-7616'
-                    ]
-                ],
-                'grid-4438' => [
-                    'attributes' => [
-                        'id' => 'grid-4438'
-                    ]
-                ],
-                'grid-7283' => [
-                    'attributes' => [
-                        'id' => 'grid-7283'
                     ]
                 ],
                 'expandedmain' => [
@@ -1917,11 +1836,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-3910'
-                    ]
-                ],
-                'grid-4430' => [
-                    'attributes' => [
-                        'id' => 'grid-4430'
                     ]
                 ],
                 'container-expanded' => [
@@ -1971,11 +1885,6 @@ return [
                         'id' => 'block-2456'
                     ]
                 ],
-                'grid-7900' => [
-                    'attributes' => [
-                        'id' => 'grid-7900'
-                    ]
-                ],
                 'container-extension' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -2023,11 +1932,6 @@ return [
                         'id' => 'block-9649'
                     ]
                 ],
-                'grid-4519' => [
-                    'attributes' => [
-                        'id' => 'grid-4519'
-                    ]
-                ],
                 'container-bottom' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -2048,11 +1952,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-3558'
-                    ]
-                ],
-                'grid-8057' => [
-                    'attributes' => [
-                        'id' => 'grid-8057'
                     ]
                 ],
                 'footermain' => [
@@ -2081,11 +1980,6 @@ return [
                         'id' => 'block-7344'
                     ]
                 ],
-                'grid-3100' => [
-                    'attributes' => [
-                        'id' => 'grid-3100'
-                    ]
-                ],
                 'container-footer' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -2106,26 +2000,6 @@ return [
                         'class' => 'g-side-column',
                         'fixed' => '1',
                         'id' => 'block-2795'
-                    ]
-                ],
-                'grid-1721' => [
-                    'attributes' => [
-                        'id' => 'grid-1721'
-                    ]
-                ],
-                'grid-9392' => [
-                    'attributes' => [
-                        'id' => 'grid-9392'
-                    ]
-                ],
-                'grid-2239' => [
-                    'attributes' => [
-                        'id' => 'grid-2239'
-                    ]
-                ],
-                'grid-5446' => [
-                    'attributes' => [
-                        'id' => 'grid-5446'
                     ]
                 ],
                 'copyrightmain' => [
@@ -2153,11 +2027,6 @@ return [
                         'id' => 'block-4249'
                     ]
                 ],
-                'grid-1984' => [
-                    'attributes' => [
-                        'id' => 'grid-1984'
-                    ]
-                ],
                 'container-copyright' => [
                     'attributes' => [
                         'boxed' => '3',
@@ -2165,11 +2034,6 @@ return [
                         'extra' => [
                             
                         ]
-                    ]
-                ],
-                'grid-8965' => [
-                    'attributes' => [
-                        'id' => 'grid-8965'
                     ]
                 ]
             ],
@@ -2182,84 +2046,28 @@ return [
                 'owlcarousel-5908' => [
                     'title' => 'Owl Carousel',
                     'attributes' => [
+                        'class' => '',
                         'presets' => 'enabled',
+                        'displayitems' => '1',
+                        'title' => '',
+                        'description' => '',
+                        'layout' => 'standard',
+                        'width' => 'g-owlcarousel-fullwidth',
+                        'animateIn' => 'fadeIn',
+                        'animateOut' => 'fadeOut',
                         'nav' => 'disabled',
+                        'prevText' => '',
+                        'nextText' => '',
+                        'dots' => 'disabled',
                         'loop' => 'disabled',
+                        'autoplay' => 'disabled',
+                        'autoplaySpeed' => '',
+                        'pauseOnHover' => 'enabled',
                         'items' => [
                             0 => [
-                                'image' => 'gantry-media://rocketlauncher/home/header/img-01.jpg',
+                                'image' => 'gantry-media://IMG_3038.jpg',
                                 'icon' => '',
-                                'title' => 'One <strong>of</strong> the <br /> 25 wonders  <br /> <strong>of</strong> the world',
-                                'subtitle' => '',
-                                'author' => '',
-                                'authorimage' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttontarget' => '_self',
-                                'buttonclass' => '',
-                                'name' => 'New item'
-                            ],
-                            1 => [
-                                'image' => 'gantry-media://rocketlauncher/home/header/img-02.jpg',
-                                'icon' => '',
-                                'title' => 'One <strong>of</strong> the <br /> 25 wonders  <br /> <strong>of</strong> the world',
-                                'subtitle' => '',
-                                'author' => '',
-                                'authorimage' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttontarget' => '_self',
-                                'buttonclass' => '',
-                                'name' => 'New item'
-                            ],
-                            2 => [
-                                'image' => 'gantry-media://rocketlauncher/home/header/img-03.jpg',
-                                'icon' => '',
-                                'title' => 'One <strong>of</strong> the <br /> 25 wonders  <br /> <strong>of</strong> the world',
-                                'subtitle' => '',
-                                'author' => '',
-                                'authorimage' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttontarget' => '_self',
-                                'buttonclass' => '',
-                                'name' => 'New item'
-                            ],
-                            3 => [
-                                'image' => 'gantry-media://rocketlauncher/home/header/img-04.jpg',
-                                'icon' => '',
-                                'title' => 'One <strong>of</strong> the <br /> 25 wonders  <br /> <strong>of</strong> the world',
-                                'subtitle' => '',
-                                'author' => '',
-                                'authorimage' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttontarget' => '_self',
-                                'buttonclass' => '',
-                                'name' => 'New item'
-                            ],
-                            4 => [
-                                'image' => 'gantry-media://rocketlauncher/home/header/img-05.jpg',
-                                'icon' => '',
-                                'title' => 'One <strong>of</strong> the <br /> 25 wonders  <br /> <strong>of</strong> the world',
-                                'subtitle' => '',
-                                'author' => '',
-                                'authorimage' => '',
-                                'desc' => '',
-                                'link' => '',
-                                'linktext' => '',
-                                'buttontarget' => '_self',
-                                'buttonclass' => '',
-                                'name' => 'New item'
-                            ],
-                            5 => [
-                                'image' => 'gantry-media://rocketlauncher/home/header/img-06.jpg',
-                                'icon' => '',
-                                'title' => 'One <strong>of</strong> the <br /> 25 wonders  <br /> <strong>of</strong> the world',
+                                'title' => 'Dormire a Roma a due passi da Trastevere',
                                 'subtitle' => '',
                                 'author' => '',
                                 'authorimage' => '',
@@ -2274,6 +2082,11 @@ return [
                     ],
                     'block' => [
                         'class' => 'fp-header-slideshow'
+                    ]
+                ],
+                'spacer-1928' => [
+                    'block' => [
+                        'class' => 'hidden-tablet'
                     ]
                 ],
                 'bookingform-7187' => [
@@ -2324,34 +2137,49 @@ return [
                         'class' => 'fp-bookingform'
                     ]
                 ],
+                'spacer-9286' => [
+                    'block' => [
+                        'class' => 'hidden-tablet'
+                    ]
+                ],
                 'imagegrid-8152' => [
                     'title' => 'Image Grid',
                     'attributes' => [
+                        'class' => '',
+                        'title' => '',
+                        'desc' => '',
                         'cols' => 'g-imagegrid-5cols',
+                        'layout' => 'g-imagegrid-standard',
+                        'album' => 'Gallery',
                         'imagegriditems' => [
                             0 => [
-                                'image' => 'gantry-media://rocketlauncher/home/slideshow/img-01.jpg',
+                                'image' => 'gantry-media://IMG_3026.jpg',
                                 'caption' => 'Breakfast',
+                                'icon' => 'fa fa-search',
                                 'title' => 'New item'
                             ],
                             1 => [
-                                'image' => 'gantry-media://rocketlauncher/home/slideshow/img-02.jpg',
-                                'caption' => 'Beach',
+                                'image' => 'gantry-media://IMG_2965.jpg',
+                                'caption' => 'Terrace',
+                                'icon' => 'fa fa-search',
                                 'title' => 'New item'
                             ],
                             2 => [
-                                'image' => 'gantry-media://rocketlauncher/home/slideshow/img-03.jpg',
-                                'caption' => 'Kitchen',
+                                'image' => '',
+                                'caption' => 'Relax',
+                                'icon' => 'fa fa-search',
                                 'title' => 'New item'
                             ],
                             3 => [
-                                'image' => 'gantry-media://rocketlauncher/home/slideshow/img-04.jpg',
+                                'image' => 'gantry-media://IMG_3042.jpg',
                                 'caption' => 'Living Room',
+                                'icon' => 'fa fa-search',
                                 'title' => 'New item'
                             ],
                             4 => [
-                                'image' => 'gantry-media://rocketlauncher/home/slideshow/img-05.jpg',
-                                'caption' => 'Sea',
+                                'image' => 'gantry-media://IMG_2892.jpg',
+                                'caption' => 'Welcome',
+                                'icon' => 'fa fa-search',
                                 'title' => 'New item'
                             ]
                         ]
@@ -2675,16 +2503,6 @@ per person',
                         'class' => 'g-social-footer'
                     ]
                 ],
-                'spacer-1928' => [
-                    'block' => [
-                        'class' => 'hidden-tablet'
-                    ]
-                ],
-                'spacer-9286' => [
-                    'block' => [
-                        'class' => 'hidden-tablet'
-                    ]
-                ],
                 'spacer-3620' => [
                     'block' => [
                         'class' => 'g-bordered-spacer'
@@ -2849,8 +2667,16 @@ per person',
         'assignments' => [
             'page' => [
                 0 => [
-                    'home' => 1
+                    'home' => true
                 ]
+            ],
+            'language' => [
+                0 => [
+                    'it' => true
+                ]
+            ],
+            'type' => [
+                
             ]
         ]
     ]

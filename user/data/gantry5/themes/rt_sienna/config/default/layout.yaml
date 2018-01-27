@@ -595,6 +595,11 @@ structure:
       class: fp-copyright
       extra: {  }
 content:
+  logo-5992:
+    attributes:
+      target: _self
+      image: 'gantry-media://logo.png'
+      class: 'g-logo blogo'
   menu-7876:
     block:
       variations: align-right

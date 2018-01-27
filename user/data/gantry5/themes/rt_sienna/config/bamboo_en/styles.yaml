@@ -1,0 +1,8 @@
+preset: preset1
+accent:
+  color-1: '#1da168'
+  color-2: '#33a58c'
+top:
+  background: '#1da168'
+header:
+  background: '#1da168'

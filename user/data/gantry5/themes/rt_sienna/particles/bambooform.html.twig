@@ -1,0 +1,44 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+<div class="{{ particle.class|e }}">
+    <form id="g-bookingform-{{ id }}" data-bookingform-id="g-bookingform-{{ id }}" target="_blank" data-bookingform-token="{{ particle.token }}" data-bookingform-requiredmessage="{{ particle.required }}" class="g-bookingform" action="#" method="post">
+        <input type="hidden" id="lcode" name="lcode" value="1377875938"/>
+        <fieldset>
+
+            <div class="g-bookingform-visible">
+                {% for item in particle.items %}
+                <div class="g-bookingform-item {% if item.type == 'spinner' %}g-bookingform-spinner{% endif %} {% if item.type == 'datepicker' %}g-bookingform-calendar{% endif %}" {% if item.type == 'spinner' %}data-trigger="spinner"{% endif %}>
+                    {% if item.label %}
+                    <label for="g-bookingform-item-id-{{ loop.index }}">{{ item.label }}{% if item.required == 'enabled' %}<sup>*</sup>{% endif %}</label>
+                    {% endif %}
+                    <input type="text" class="{% if item.type == 'datepicker' %}g-bookform-datepicker{% endif %}{% if item.required == 'enabled' %} g-bookingform-item-required{% endif %}" name="{{ item.form_id }}" {% if item.required == 'enabled' %}required="required"{% endif %} id="{{ item.form_id }}" placeholder="{{ item.placeholder }}" {% if item.type == 'spinner' %}data-min="{{ item.min }}" data-max="{{ item.max }}"{% endif %}>
+                    {% if item.type == 'datepicker' %}
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    {% endif %}
+                </div>
+                {% endfor %}
+
+                <div class="g-bookingform-button1">
+                    <label for="g-bookingform-submit-top">&nbsp;</label>
+                    <a href="javascript:;" class="button" id="g-bookingform-submit-bottom">{{ particle.button1|default('Submit')|raw }}</a>
+
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+{% endblock %}
+
+{% block javascript_footer %}
+<script src="{{ url('gantry-theme://js/datepicker.js') }}"></script>
+<script src="{{ url('gantry-theme://js/spinner.js') }}"></script>
+<script src="https://wubook.net/js/wblib.jgz"></script>
+
+<script src="{{ url('gantry-theme://js/bambooform.js') }}"></script>
+
+<script>
+
+</script>
+{% endblock %}

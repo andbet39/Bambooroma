@@ -1,8 +1,8 @@
 enabled: '1'
 url: ''
 target: _self
-image: ''
-link: '1'
+image: 'gantry-media://logo.png'
+link: '0'
 svg: ''
-text: 'Bamboo B&B Roma'
-class: g-logo
+text: ''
+class: 'g-logo blogo'
