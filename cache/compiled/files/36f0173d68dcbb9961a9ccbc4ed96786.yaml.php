@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://gantry5/gantry5.yaml',
-    'modified' => 1517036456,
+    'modified' => 1517038407,
     'data' => [
         'enabled' => true,
         'production' => true,

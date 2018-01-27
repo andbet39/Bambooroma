@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/hu.yaml',
-    'modified' => 1516988888,
+    'modified' => 1517038423,
     'data' => [
         'PLUGIN_LOGIN' => [
             'ACCESS_DENIED' => 'Hozzáférés megtagadva...',

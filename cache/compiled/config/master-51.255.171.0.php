@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1517036153,
-    'checksum' => 'da16d1db51059968f4175e1585f95381',
+    'timestamp' => 1517041534,
+    'checksum' => '58b2132b8683fde990088131a526c520',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1516989081
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1517038322
             ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
@@ -27,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038322
             ],
             'themes/g5_helium' => [
                 'file' => 'user/config/themes/g5_helium.yaml',
@@ -37,25 +41,25 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038385
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038385
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038385
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038385
             ]
         ],
         'user/plugins' => [
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038423
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
@@ -63,15 +67,27 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1517032826
+                'modified' => 1517038398
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038414
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/gantry5.yaml',
+                'modified' => 1517038407
+            ],
+            'plugins/pagination' => [
+                'file' => 'user/plugins/pagination/pagination.yaml',
+                'modified' => 1517038322
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1516988888
+                'modified' => 1517038403
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/simplesearch.yaml',
+                'modified' => 1517038427
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -222,14 +238,31 @@ return [
                     ]
                 ]
             ],
+            'gantry5' => [
+                'enabled' => true,
+                'production' => true,
+                'use_media_folder' => false,
+                'offline' => false,
+                'offline_message' => NULL,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
+            ],
+            'pagination' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'delta' => 0
+            ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
+                'from' => 'mail@example.com',
                 'from_name' => NULL,
-                'to' => NULL,
+                'to' => 'mail@example.com',
                 'to_name' => NULL,
                 'mailer' => [
-                    'engine' => 'sendmail',
+                    'engine' => 'none',
                     'smtp' => [
                         'server' => 'localhost',
                         'port' => 25,
@@ -238,11 +271,30 @@ return [
                         'password' => ''
                     ],
                     'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail -bs'
+                        'bin' => '/usr/sbin/sendmail'
                     ]
                 ],
                 'content_type' => 'text/html',
                 'debug' => false
+            ],
+            'simplesearch' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'built_in_js' => true,
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'search_content' => 'rendered',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => false,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ]
             ],
             'problems' => [
                 'enabled' => true,
@@ -599,7 +651,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'rt_sienna',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -710,15 +762,14 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 0,
                 'log' => true
             ],
             'debugger' => [
                 'enabled' => false,
                 'shutdown' => [
                     'close_connection' => true
-                ],
-                'twig' => true
+                ]
             ],
             'images' => [
                 'default_image_quality' => 85,
