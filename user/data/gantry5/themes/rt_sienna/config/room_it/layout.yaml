@@ -543,7 +543,7 @@ structure:
     type: section
     title: 'Copyright Main'
     inherit:
-      outline: bamboo_en
+      outline: bamboo_it
       include:
         - attributes
         - block

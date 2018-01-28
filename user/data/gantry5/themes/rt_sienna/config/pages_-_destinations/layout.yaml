@@ -40,7 +40,7 @@ layout:
       -
         'abovemain 80':
           -
-            - simplecontent-7578
+            - simplecontent-2499
       -
         'aboveright 10': {  }
   /container-main/:
@@ -52,7 +52,7 @@ layout:
       -
         'mainbar 80':
           -
-            - system-content-1120
+            - infolist-2988
       -
         'aside 10':
           -
@@ -62,7 +62,9 @@ layout:
       -
         'showcaseleft 10': {  }
       -
-        'showcasemain 80': {  }
+        'showcasemain 80':
+          -
+            - infolist-8813
       -
         'showcaseright 10': {  }
   /container-slideshow/:
@@ -70,7 +72,9 @@ layout:
       -
         'slideshowleft 10': {  }
       -
-        'slideshowmain 80': {  }
+        'slideshowmain 80':
+          -
+            - imagegrid-4506
       -
         'slideshowright 10': {  }
   /container-utility/:
@@ -102,9 +106,7 @@ layout:
       -
         'extensionleft 10': {  }
       -
-        'extensionmain 80':
-          -
-            - custom-7251
+        'extensionmain 80': {  }
       -
         'extensionright 10': {  }
   /container-bottom/:
@@ -578,35 +580,284 @@ content:
   menu-7876:
     block:
       variations: align-right
-  simplecontent-7578:
-    title: 'Offline Header'
+  simplecontent-2499:
+    title: 'Destinations Header'
     attributes:
       class: center
+      title: ''
       items:
         -
           layout: header
           created_date: ''
-          content_title: 'How to Take Your Grav Website Temporarily Offline'
+          content_title: Destinations
           author: ''
-          leading_content: 'There may be occasions when you will make your Grav website completely unavailable to visitors for a short time. There is a simple switch in the Administrator back-end that enables you to take your website offline very quickly. It can be returned to service at a later time just as easily.'
+          leading_content: 'The most stunning destinations in the World, now you can book all of them right here.'
           main_content: ''
           readmore_label: ''
           readmore_link: ''
           readmore_class: ''
           readmore_target: _self
-          title: Offline
+          title: Destinations
   position-position-8538:
     title: Sidebar
     attributes:
       key: sidebar
+  infolist-2988:
+    title: 'Destinations Info List'
+    attributes:
+      class: 'noborder spaced'
+      title: ''
+      intro: ''
+      cols: g-2cols
+      infolists:
+        -
+          icon: ''
+          iconloc: left
+          image: 'gantry-media://rocketlauncher/pages/destinations/mainbar/img-01.jpg'
+          imageloc: left
+          textstyle: compact
+          imagestyle: large
+          desc: 'Cuaqum ante augue. Nullam dignissim, felis eu imperdiet feugiat, libero ipsum gravida arcu.'
+          tag: ''
+          subtag: ''
+          label: 'Learn More'
+          link: '#'
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Destination 1'
+        -
+          icon: ''
+          iconloc: left
+          image: 'gantry-media://rocketlauncher/pages/destinations/mainbar/img-02.jpg'
+          imageloc: left
+          textstyle: compact
+          imagestyle: large
+          desc: 'Cuaqum ante augue. Nullam dignissim, felis eu imperdiet feugiat, libero ipsum gravida arcu.'
+          tag: ''
+          subtag: ''
+          label: 'Learn More'
+          link: '#'
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Destination 2'
+        -
+          icon: ''
+          iconloc: left
+          image: 'gantry-media://rocketlauncher/pages/destinations/mainbar/img-03.jpg'
+          imageloc: left
+          textstyle: compact
+          imagestyle: large
+          desc: 'Cuaqum ante augue. Nullam dignissim, felis eu imperdiet feugiat, libero ipsum gravida arcu.'
+          tag: ''
+          subtag: ''
+          label: 'Learn More'
+          link: '#'
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Destination 3'
+        -
+          icon: ''
+          iconloc: left
+          image: 'gantry-media://rocketlauncher/pages/destinations/mainbar/img-04.jpg'
+          imageloc: left
+          textstyle: compact
+          imagestyle: large
+          desc: 'Cuaqum ante augue. Nullam dignissim, felis eu imperdiet feugiat, libero ipsum gravida arcu.'
+          tag: ''
+          subtag: ''
+          label: 'Learn More'
+          link: '#'
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Destination 4'
   position-position-8807:
     title: Aside
     attributes:
       key: aside
-  custom-7251:
-    title: 'To make your Grav website unavailable'
+  infolist-8813:
+    title: 'Destinations Info List 2'
     attributes:
-      html: "<p>To make your Grav website unavailable to visitors, replacing it with a simple message, do this:</p>\n\n<ol>\n  <li> Log in to the Grav Admin dashboard.</li>\n  <li> Click on the <strong>Gantry 5</strong> button in the admin sidebar on the left.</li>\n  <li> Click in the top right corner on the <strong>Extras</strong> button and select <strong>Platform Settings</strong>.</li>\n  <li> Find where it says <strong>Offline</strong> and select the <strong>Yes</strong> switch.</li>\n  <li>You can then change the <strong>Offline Message</strong> in the field below to give your visitors some explanation about why your website is unavailable.</li>\n  <li> Click the <strong>Save</strong> button on the top right to implement the new settings.</li>\n  <li>You should see a message confirming the settings have been changed.</li>\n</ol>"
+      cols: g-4cols
+      infolists:
+        -
+          icon: 'fa fa-align-justify'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: Lodging
+        -
+          icon: 'fa fa-bar-chart-o'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Vacation Rental'
+        -
+          icon: 'fa fa-building-o'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: Flights
+        -
+          icon: 'fa fa-codepen'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Things to Do'
+        -
+          icon: 'fa fa-file-movie-o'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: Restaurants
+        -
+          icon: 'fa fa-industry'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: Reviews
+        -
+          icon: 'fa fa-comments'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: 'Guided Tours'
+        -
+          icon: 'fa fa-empire'
+          iconloc: center
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          buttonicon: ''
+          readmoreclass: ''
+          readmoretarget: _self
+          title: Sightseeing
+  imagegrid-4506:
+    title: 'Destinations Image Grid'
+    attributes:
+      cols: g-imagegrid-4cols
+      layout: g-imagegrid-standard
+      album: clients
+      imagegriditems:
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-01.jpg'
+          caption: 'Image 1'
+          icon: 'fa fa-search'
+          title: 'Image 1'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-02.jpg'
+          caption: 'Image 2'
+          icon: 'fa fa-search'
+          title: 'Image 2'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-03.jpg'
+          caption: 'Image 3'
+          icon: 'fa fa-search'
+          title: 'Image 3'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-04.jpg'
+          caption: 'Image 4'
+          icon: 'fa fa-search'
+          title: 'Image 4'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-05.jpg'
+          caption: 'Image 5'
+          icon: 'fa fa-search'
+          title: 'Image 5'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-06.jpg'
+          caption: 'Image 6'
+          icon: 'fa fa-search'
+          title: 'Image 6'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-07.jpg'
+          caption: 'Image 7'
+          icon: 'fa fa-search'
+          title: 'Image 7'
+        -
+          image: 'gantry-media://rocketlauncher/pages/destinations/slideshow/img-08.jpg'
+          caption: 'Image 8'
+          icon: 'fa fa-search'
+          title: 'Image 8'
   position-position-2316:
     title: 'Copyright A'
     attributes:

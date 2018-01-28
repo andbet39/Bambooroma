@@ -1,27 +1,13 @@
 name: pages_-_offline
-timestamp: 1517148999
+timestamp: 1510658612
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
-  timestamp: 1517042143
+  timestamp: 1466236168
 positions:
-  header-a: 'Header A'
-  header-b: 'Header B'
-  above-a: 'Above A'
-  sidebar-a: 'Sidebar A'
-  mainbar-a: 'MainBar A'
-  aside-a: 'Aside A'
-  showcase-a: 'Showcase A'
-  showcase-b: 'Showcase B'
-  showcase-c: 'Showcase C'
-  slideshow-a: 'Slideshow A'
-  utility-a: 'Utility A'
-  feature-a: 'Feature A'
-  expanded-a: 'Expanded A'
-  expanded-b: 'Expanded B'
-  extension-a: 'Extension A'
-  bottom-a: 'Bottom A'
+  sidebar: Sidebar
+  aside: Aside
   copyright-a: 'Copyright A'
   copyright-b: 'Copyright B'
   copyright-c: 'Copyright C'
@@ -81,23 +67,11 @@ particles:
     logo-5992: Logo
   menu:
     menu-7876: Menu
+  simplecontent:
+    simplecontent-7578: 'Offline Header'
   position:
-    position-position-5067: 'Header A'
-    position-position-9651: 'Header B'
-    position-position-3264: 'Above A'
-    position-position-8538: 'Sidebar A'
-    position-position-8547: 'MainBar A'
-    position-position-8807: 'Aside A'
-    position-position-9435: 'Showcase A'
-    position-position-8620: 'Showcase B'
-    position-position-3083: 'Showcase C'
-    position-position-6661: 'Slideshow A'
-    position-position-5239: 'Utility A'
-    position-position-7980: 'Feature A'
-    position-position-8124: 'Expanded A'
-    position-position-8346: 'Expanded B'
-    position-position-4800: 'Extension A'
-    position-position-3343: 'Bottom A'
+    position-position-8538: Sidebar
+    position-position-8807: Aside
     position-position-2316: 'Copyright A'
     position-position-5872: 'Copyright B'
     position-position-5432: 'Copyright C'
@@ -108,6 +82,8 @@ particles:
     position-position-9799: 'Copyright H'
   content:
     system-content-1120: 'Page Content'
+  custom:
+    custom-7251: 'To make your Grav website unavailable'
   spacer:
     spacer-3620: Spacer
     spacer-4015: Spacer

@@ -2,15 +2,15 @@ preset: preset1
 base:
   background: '#ffffff'
   text-color: '#666666'
-  background-image: 'gantry-media://bamboo1.jpg'
+  background-image: 'gantry-media://backgrounds/header/img-01.jpg'
 accent:
   color-1: '#58bd91'
   color-2: '#33a58c'
 font:
-  family-default: 'family=Roboto:200,200italic,400,400italic'
-  family-title: 'family=Roboto:700,700italic,400,400italic'
-  family-promo: 'family=Roboto:700,700italic,400,400italic'
-  family-subpromo: 'family=Roboto:300italic'
+  family-default: 'muli, sans-serif, Tahoma, Geneva, Arial'
+  family-title: 'muli, sans-serif, Tahoma, Geneva, Arial'
+  family-promo: playfairdisplay
+  family-subpromo: 'playfairdisplay italic'
   family-weather: weather
 top:
   background: '#58bd91'

@@ -1,38 +1,28 @@
-name: near_en
-timestamp: 1517073748
+name: pages_-_coming_soon
+timestamp: 1517160281
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
-  name: default
-  timestamp: 1466236168
-positions:
-  sidebar: Sidebar
-  aside: Aside
-  copyright-a: 'Copyright A'
-  copyright-b: 'Copyright B'
-  copyright-c: 'Copyright C'
-  copyright-d: 'Copyright D'
-  copyright-e: 'Copyright E'
-  copyright-f: 'Copyright F'
-  copyright-g: 'Copyright G'
-  copyright-h: 'Copyright H'
+  name: coming_soon
+  timestamp: 1517042143
+positions: {  }
 sections:
   topleft: 'Top Left'
   topright: 'Top Right'
   headerleft: 'Header Left'
   headerright: 'Header Right'
-  aboveleft: 'Above Left'
-  aboveright: 'Above Right'
-  sidebar: Sidebar
-  aside: Aside
   showcaseleft: 'Showcase Left'
   showcaseright: 'Showcase Right'
   slideshowleft: 'Slideshow Left'
   slideshowright: 'Slideshow Right'
+  aboveleft: 'Above Left'
+  aboveright: 'Above Right'
   utilityleft: 'Utility Left'
   utilityright: 'Utility Right'
   featureleft: 'Feature Left'
   featureright: 'Feature Right'
+  sidebar: Sidebar
+  aside: Aside
   expandedleft: 'Expanded Left'
   expandedright: 'Expanded Right'
   extensionleft: 'Extension Left'
@@ -42,14 +32,14 @@ sections:
   footerleft: 'Footer Left'
   footerright: 'Footer Right'
   copyrightleft: 'Copyright Left'
-  copyrightright: 'Copyright Right'
+  copyrightright: 'Copyright Left'
   topmain: 'Top Main'
   navigationleft: 'Navigation Left'
   navigationmain: 'Navigation Main'
   navigationright: 'Navigation Right'
-  abovemain: 'Above Main'
   showcasemain: 'Showcase Main'
   slideshowmain: 'Slideshow Main'
+  abovemain: 'Above Main'
   utilitymain: 'Utility Main'
   featuremain: 'Feature Main'
   expandedmain: 'Expanded Main'
@@ -64,28 +54,29 @@ particles:
   messages:
     system-messages-9828: 'System Messages'
   logo:
-    logo-5992: Logo
+    logo-4776: 'Logo / Image'
   menu:
     menu-7876: Menu
-  simplecontent:
-    simplecontent-3044: 'About Us Header'
-  position:
-    position-position-8538: Sidebar
-    position-position-8807: Aside
-    position-position-2316: 'Copyright A'
-    position-position-5872: 'Copyright B'
-    position-position-5432: 'Copyright C'
-    position-position-6325: 'Copyright D'
-    position-position-9467: 'Copyright E'
-    position-position-3508: 'Copyright F'
-    position-position-9427: 'Copyright G'
-    position-position-9799: 'Copyright H'
-  blockcontent:
-    blockcontent-7291: 'Who we are'
-    blockcontent-2968: 'What we furnish'
   spacer:
+    spacer-5610: Spacer
     spacer-3620: Spacer
     spacer-4015: Spacer
+  simplecontent:
+    simplecontent-6932: 'Coming Soon!'
+    simplecontent-3806: 'Simple Content'
+  simplecounter:
+    simplecounter-1369: 'Simple Counter'
+  simpleweather:
+    simpleweather-6240: 'Simple Weather'
+  newsletter:
+    newsletter-6777: Newsletter
+  social:
+    social-2831: Social
+  simplemenu:
+    simplemenu-7117: 'Useful Links'
+    simplemenu-2237: Food
+    simplemenu-3870: Hotel
+    simplemenu-8458: Terms
   copyright:
     copyright-5748: Copyright
   mobile-menu:

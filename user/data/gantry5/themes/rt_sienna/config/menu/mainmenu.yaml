@@ -14,7 +14,7 @@ items:
     enabled: true
     anchor_class: ''
   about-us:
-    enabled: '0'
+    enabled: '1'
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
@@ -23,6 +23,7 @@ items:
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
+    anchor_class: ''
   styles/__particle:
     type: particle
     particle: custom

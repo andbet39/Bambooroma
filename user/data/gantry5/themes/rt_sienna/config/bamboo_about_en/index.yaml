@@ -1,5 +1,5 @@
-name: rooms_en
-timestamp: 1517164212
+name: bamboo_about_en
+timestamp: 1517164444
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -60,39 +60,37 @@ particles:
   menu:
     menu-7876: Menu
   simplecontent:
-    simplecontent-3044: 'Room header'
-    simplecontent-9280: 'Simple Content'
-    simplecontent-2177: 'Simple Content'
+    simplecontent-3044: 'About Us Header'
+    simplecontent-5267: 'Simple Content'
   position:
     position-position-8538: Sidebar
     position-position-8807: Aside
   blockcontent:
     blockcontent-2968: 'What we furnish'
-  imagegrid:
-    imagegrid-2721: 'Image Grid'
+  content:
+    system-content-2183: 'Page Content'
+  simpleweather:
+    simpleweather-8114: 'Simple Weather'
+  newsletter:
+    newsletter-6970: Newsletter
+  social:
+    social-5960: Social
+  spacer:
+    spacer-7369: Spacer
+    spacer-5173: Spacer
+    spacer-7169: Spacer
+  copyright:
+    copyright-4871: Copyright
   mobile-menu:
     mobile-menu-7951: Mobile-menu
-  simpleweather:
-    simpleweather-4209: 'Simple Weather'
-  newsletter:
-    newsletter-7827: Newsletter
-  social:
-    social-7082: Social
-  spacer:
-    spacer-2916: Spacer
-    spacer-4112: Spacer
-    spacer-2070: Spacer
-  copyright:
-    copyright-3600: Copyright
 inherit:
   bamboo_en:
-    menu-7876: menu-7876
     copyrightmain: copyrightmain
-    simpleweather-4209: simpleweather-6240
-    newsletter-7827: newsletter-6777
-    social-7082: social-2831
-    spacer-2916: spacer-3620
-    simplecontent-2177: simplecontent-3806
-    spacer-4112: spacer-4143
-    spacer-2070: spacer-4015
-    copyright-3600: copyright-5748
+    simpleweather-8114: simpleweather-6240
+    newsletter-6970: newsletter-6777
+    social-5960: social-2831
+    spacer-7369: spacer-3620
+    simplecontent-5267: simplecontent-3806
+    spacer-5173: spacer-4143
+    spacer-7169: spacer-4015
+    copyright-4871: copyright-5748

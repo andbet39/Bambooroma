@@ -1,7 +1,3 @@
 page:
   -
-    contact: true
-language:
-  -
-    en: true
-type: {  }
+    pages/contact: true

@@ -1,5 +1,5 @@
-name: rooms_en
-timestamp: 1517164212
+name: pages_-_destinations
+timestamp: 1510658612
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -8,6 +8,14 @@ preset:
 positions:
   sidebar: Sidebar
   aside: Aside
+  copyright-a: 'Copyright A'
+  copyright-b: 'Copyright B'
+  copyright-c: 'Copyright C'
+  copyright-d: 'Copyright D'
+  copyright-e: 'Copyright E'
+  copyright-f: 'Copyright F'
+  copyright-g: 'Copyright G'
+  copyright-h: 'Copyright H'
 sections:
   topleft: 'Top Left'
   topright: 'Top Right'
@@ -60,39 +68,28 @@ particles:
   menu:
     menu-7876: Menu
   simplecontent:
-    simplecontent-3044: 'Room header'
-    simplecontent-9280: 'Simple Content'
-    simplecontent-2177: 'Simple Content'
+    simplecontent-2499: 'Destinations Header'
   position:
     position-position-8538: Sidebar
     position-position-8807: Aside
-  blockcontent:
-    blockcontent-2968: 'What we furnish'
+    position-position-2316: 'Copyright A'
+    position-position-5872: 'Copyright B'
+    position-position-5432: 'Copyright C'
+    position-position-6325: 'Copyright D'
+    position-position-9467: 'Copyright E'
+    position-position-3508: 'Copyright F'
+    position-position-9427: 'Copyright G'
+    position-position-9799: 'Copyright H'
+  infolist:
+    infolist-2988: 'Destinations Info List'
+    infolist-8813: 'Destinations Info List 2'
   imagegrid:
-    imagegrid-2721: 'Image Grid'
+    imagegrid-4506: 'Destinations Image Grid'
+  spacer:
+    spacer-3620: Spacer
+    spacer-4015: Spacer
+  copyright:
+    copyright-5748: Copyright
   mobile-menu:
     mobile-menu-7951: Mobile-menu
-  simpleweather:
-    simpleweather-4209: 'Simple Weather'
-  newsletter:
-    newsletter-7827: Newsletter
-  social:
-    social-7082: Social
-  spacer:
-    spacer-2916: Spacer
-    spacer-4112: Spacer
-    spacer-2070: Spacer
-  copyright:
-    copyright-3600: Copyright
-inherit:
-  bamboo_en:
-    menu-7876: menu-7876
-    copyrightmain: copyrightmain
-    simpleweather-4209: simpleweather-6240
-    newsletter-7827: newsletter-6777
-    social-7082: social-2831
-    spacer-2916: spacer-3620
-    simplecontent-2177: simplecontent-3806
-    spacer-4112: spacer-4143
-    spacer-2070: spacer-4015
-    copyright-3600: copyright-5748
+inherit: {  }

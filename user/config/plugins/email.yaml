@@ -1,13 +1,19 @@
 enabled: true
-from: mail@example.com
-to: mail@example.com
+from: noreply@bambooroma.com
+from_name: 'Sito Bamboo'
+to: booking@bambooroma.com
+to_name: 'Andrea Terzani'
 mailer:
-  engine: none
+  engine: sendmail
   smtp:
     server: localhost
     port: 25
     encryption: none
+    user: andbet39
+    password: Giada123
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
 debug: false
+cc: andreaterzani@gmail.com
+cc_name: 'Andrea Terzani'

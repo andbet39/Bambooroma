@@ -2,7 +2,7 @@ version: 2
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
-  timestamp: 1517042143
+  timestamp: 1466236168
 layout:
   /container-top/:
     -
@@ -30,10 +30,7 @@ layout:
       -
         'headerleft 10': {  }
       -
-        'headermain 80':
-          -
-            - 'position-position-5067 70'
-            - 'position-position-9651 30'
+        'headermain 80': {  }
       -
         'headerright 10': {  }
   /container-above/:
@@ -43,7 +40,7 @@ layout:
       -
         'abovemain 80':
           -
-            - position-position-3264
+            - simplecontent-3044
       -
         'aboveright 10': {  }
   /container-main/:
@@ -55,9 +52,7 @@ layout:
       -
         'mainbar 80':
           -
-            - position-position-8547
-          -
-            - system-content-1120
+            - blockcontent-7291
       -
         'aside 10':
           -
@@ -69,9 +64,7 @@ layout:
       -
         'showcasemain 80':
           -
-            - 'position-position-9435 33.3'
-            - 'position-position-8620 33.3'
-            - 'position-position-3083 33.3'
+            - blockcontent-2968
       -
         'showcaseright 10': {  }
   /container-slideshow/:
@@ -79,9 +72,7 @@ layout:
       -
         'slideshowleft 10': {  }
       -
-        'slideshowmain 80':
-          -
-            - position-position-6661
+        'slideshowmain 80': {  }
       -
         'slideshowright 10': {  }
   /container-utility/:
@@ -89,9 +80,7 @@ layout:
       -
         'utilityleft 10': {  }
       -
-        'utilitymain 80':
-          -
-            - position-position-5239
+        'utilitymain 80': {  }
       -
         'utilityright 10': {  }
   /container-feature/:
@@ -99,9 +88,7 @@ layout:
       -
         'featureleft 10': {  }
       -
-        'featuremain 80':
-          -
-            - position-position-7980
+        'featuremain 80': {  }
       -
         'featureright 10': {  }
   /container-expanded/:
@@ -109,10 +96,7 @@ layout:
       -
         'expandedleft 10': {  }
       -
-        'expandedmain 80':
-          -
-            - 'position-position-8124 50'
-            - 'position-position-8346 50'
+        'expandedmain 80': {  }
       -
         'expandedright 10': {  }
   /container-extension/:
@@ -120,9 +104,7 @@ layout:
       -
         'extensionleft 10': {  }
       -
-        'extensionmain 80':
-          -
-            - position-position-4800
+        'extensionmain 80': {  }
       -
         'extensionright 10': {  }
   /container-bottom/:
@@ -130,9 +112,7 @@ layout:
       -
         'bottomleft 10': {  }
       -
-        'bottommain 80':
-          -
-            - position-position-3343
+        'bottommain 80': {  }
       -
         'bottomright 10': {  }
   /container-footer/:
@@ -598,78 +578,136 @@ content:
   menu-7876:
     block:
       variations: align-right
-  position-position-5067:
-    title: 'Header A'
+  simplecontent-3044:
+    title: 'About Us Header'
     attributes:
-      key: header-a
-  position-position-9651:
-    title: 'Header B'
-    attributes:
-      key: header-b
-    block:
-      class: 'nomarginleft nomarginbottom'
-      variations: nopaddingall
-  position-position-3264:
-    title: 'Above A'
-    attributes:
-      key: above-a
-    block:
-      variations: center
-      class: nomarginbottom
+      class: center
+      items:
+        -
+          layout: header
+          created_date: ''
+          content_title: 'About Us'
+          author: ''
+          leading_content: 'We know our guests will feel at home when we feel at home. We deliver great service each and every day with a spirit of kindness, teamwork, and hospitality.'
+          main_content: ''
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: 'About Us'
   position-position-8538:
-    title: 'Sidebar A'
+    title: Sidebar
     attributes:
-      key: sidebar-a
-  position-position-8547:
-    title: 'MainBar A'
+      key: sidebar
+  blockcontent-7291:
+    title: 'Who we are'
     attributes:
-      key: mainbar-a
+      class: center
+      title: 'This is who we are'
+      description: 'We are a very welcoming team, you''ll see.'
+      subcontents:
+        -
+          name: 'Rick Grimes'
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/showcase/img-01.jpg'
+          rokboximage: ''
+          rokboxcaption: ''
+          subtitle: Manager
+          description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.<br />\n<i class=\"fa fa-twitter-square\"></i> <i class=\"fa fa-facebook-square\"></i> <i class=\"fa fa-linkedin-square\"></i>"
+          class: ''
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          buttontarget: _self
+          title: 'Rick Grimes'
+        -
+          name: 'Maggie Greene'
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/showcase/img-02.jpg'
+          rokboximage: ''
+          rokboxcaption: ''
+          subtitle: 'Front Desk'
+          description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.<br />\n<i class=\"fa fa-twitter-square\"></i> <i class=\"fa fa-facebook-square\"></i> <i class=\"fa fa-linkedin-square\"></i>"
+          class: ''
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          buttontarget: _self
+          title: 'Maggie Greene'
+        -
+          name: 'Daryl Dixon'
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/showcase/img-03.jpg'
+          rokboximage: ''
+          rokboxcaption: ''
+          subtitle: Housekeeping
+          description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.<br />\n<i class=\"fa fa-twitter-square\"></i> <i class=\"fa fa-facebook-square\"></i> <i class=\"fa fa-linkedin-square\"></i>"
+          class: ''
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          buttontarget: _self
+          title: 'Daryl Dixon'
   position-position-8807:
-    title: 'Aside A'
+    title: Aside
     attributes:
-      key: aside-a
-  position-position-9435:
-    title: 'Showcase A'
+      key: aside
+  blockcontent-2968:
+    title: 'What we furnish'
     attributes:
-      key: showcase-a
-    block:
-      variations: box5
-  position-position-8620:
-    title: 'Showcase B'
-    attributes:
-      key: showcase-b
-  position-position-3083:
-    title: 'Showcase C'
-    attributes:
-      key: showcase-c
-  position-position-6661:
-    title: 'Slideshow A'
-    attributes:
-      key: slideshow-a
-  position-position-5239:
-    title: 'Utility A'
-    attributes:
-      key: utility-a
-  position-position-7980:
-    title: 'Feature A'
-    attributes:
-      key: feature-a
-  position-position-8124:
-    title: 'Expanded A'
-    attributes:
-      key: expanded-a
-  position-position-8346:
-    title: 'Expanded B'
-    attributes:
-      key: expanded-b
-  position-position-4800:
-    title: 'Extension A'
-    attributes:
-      key: extension-a
-  position-position-3343:
-    title: 'Bottom A'
-    attributes:
-      key: bottom-a
+      class: 'center g-blockcontent-spacing'
+      title: 'This is what we furnish'
+      icon: ''
+      image: ''
+      headline: ''
+      description: 'Choose the suite that meets your needs.'
+      linktext: ''
+      link: ''
+      linkclass: ''
+      linktarget: _self
+      subcontents:
+        -
+          name: 'Dream Suite'
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/mainbar/img-01.jpg'
+          rokboximage: ''
+          rokboxcaption: ''
+          subtitle: ''
+          description: ''
+          class: nopaddingall
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          buttontarget: _self
+          title: Dream
+        -
+          name: 'Business Suite'
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/mainbar/img-02.jpg'
+          rokboximage: ''
+          rokboxcaption: ''
+          subtitle: ''
+          description: ''
+          class: nopaddingall
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          buttontarget: _self
+          title: Business
+        -
+          name: 'Rural Suite'
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/mainbar/img-03.jpg'
+          rokboximage: ''
+          rokboxcaption: ''
+          subtitle: ''
+          description: ''
+          class: nopaddingall
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          buttontarget: _self
+          title: Rural
   position-position-2316:
     title: 'Copyright A'
     attributes:

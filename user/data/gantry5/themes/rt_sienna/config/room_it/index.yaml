@@ -1,5 +1,5 @@
 name: room_it
-timestamp: 1517156039
+timestamp: 1517164212
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -62,7 +62,7 @@ particles:
   simplecontent:
     simplecontent-3044: 'Room header'
     simplecontent-9280: 'Simple Content'
-    simplecontent-8353: 'Simple Content'
+    simplecontent-2504: 'Simple Content'
   position:
     position-position-8538: Sidebar
     position-position-8807: Aside
@@ -73,26 +73,27 @@ particles:
   mobile-menu:
     mobile-menu-7951: Mobile-menu
   simpleweather:
-    simpleweather-5768: 'Simple Weather'
+    simpleweather-6042: 'Simple Weather'
   newsletter:
-    newsletter-4207: Newsletter
+    newsletter-5394: Newsletter
   social:
-    social-7471: Social
+    social-8291: Social
   spacer:
-    spacer-2511: Spacer
-    spacer-1016: Spacer
-    spacer-9138: Spacer
+    spacer-3279: Spacer
+    spacer-9330: Spacer
+    spacer-9615: Spacer
   copyright:
-    copyright-8998: Copyright
+    copyright-8440: Copyright
 inherit:
   bamboo_en:
     menu-7876: menu-7876
+  bamboo_it:
     copyrightmain: copyrightmain
-    simpleweather-5768: simpleweather-6240
-    newsletter-4207: newsletter-6777
-    social-7471: social-2831
-    spacer-2511: spacer-3620
-    simplecontent-8353: simplecontent-3806
-    spacer-1016: spacer-4143
-    spacer-9138: spacer-4015
-    copyright-8998: copyright-5748
+    simpleweather-6042: simpleweather-6240
+    newsletter-5394: newsletter-6777
+    social-8291: social-2831
+    spacer-3279: spacer-3620
+    simplecontent-2504: simplecontent-3806
+    spacer-9330: spacer-4143
+    spacer-9615: spacer-4015
+    copyright-8440: copyright-5748

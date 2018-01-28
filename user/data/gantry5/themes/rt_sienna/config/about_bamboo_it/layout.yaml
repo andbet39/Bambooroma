@@ -52,7 +52,7 @@ layout:
       -
         'mainbar 80':
           -
-            - blockcontent-7291
+            - blockcontent-2968
       -
         'aside 10':
           -
@@ -62,9 +62,7 @@ layout:
       -
         'showcaseleft 10': {  }
       -
-        'showcasemain 80':
-          -
-            - blockcontent-2968
+        'showcasemain 80': {  }
       -
         'showcaseright 10': {  }
   /container-slideshow/:
@@ -96,7 +94,9 @@ layout:
       -
         'expandedleft 10': {  }
       -
-        'expandedmain 80': {  }
+        'expandedmain 80':
+          -
+            - system-content-2183
       -
         'expandedright 10': {  }
   /container-extension/:
@@ -128,23 +128,7 @@ layout:
       -
         'copyrightleft 10': {  }
       -
-        'copyrightmain 80':
-          -
-            - 'position-position-2316 33.3'
-            - 'position-position-5872 33.3'
-            - 'position-position-5432 33.3'
-          -
-            - spacer-3620
-          -
-            - 'position-position-6325 17'
-            - 'position-position-9467 17'
-            - 'position-position-3508 17'
-            - 'position-position-9427 17'
-            - 'position-position-9799 32'
-          -
-            - spacer-4015
-          -
-            - copyright-5748
+        'copyrightmain 80': {  }
       -
         'copyrightright 10': {  }
   offcanvas:
@@ -555,10 +539,13 @@ structure:
   copyrightmain:
     type: section
     title: 'Copyright Main'
-    attributes:
-      class: ''
+    inherit:
+      outline: bamboo_en
+      include:
+        - attributes
+        - block
+        - children
     block:
-      class: g-middle-column
       fixed: '1'
   copyrightright:
     type: section
@@ -582,13 +569,14 @@ content:
     title: 'About Us Header'
     attributes:
       class: center
+      title: ''
       items:
         -
           layout: header
           created_date: ''
-          content_title: 'About Us'
+          content_title: 'Something About Bamboo B&B'
           author: ''
-          leading_content: 'We know our guests will feel at home when we feel at home. We deliver great service each and every day with a spirit of kindness, teamwork, and hospitality.'
+          leading_content: 'Bamboo isn''t only a B&B, it''s rather a lifestyle. Bamboo bed and breakfast is a clean, relaxing, warm and polite environment, luxury at green prices.'
           main_content: ''
           readmore_label: ''
           readmore_link: ''
@@ -599,77 +587,24 @@ content:
     title: Sidebar
     attributes:
       key: sidebar
-  blockcontent-7291:
-    title: 'Who we are'
-    attributes:
-      class: center
-      title: 'This is who we are'
-      description: 'We are a very welcoming team, you''ll see.'
-      subcontents:
-        -
-          name: 'Rick Grimes'
-          icon: ''
-          img: 'gantry-media://rocketlauncher/pages/about-us/showcase/img-01.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: Manager
-          description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.<br />\n<i class=\"fa fa-twitter-square\"></i> <i class=\"fa fa-facebook-square\"></i> <i class=\"fa fa-linkedin-square\"></i>"
-          class: ''
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: 'Rick Grimes'
-        -
-          name: 'Maggie Greene'
-          icon: ''
-          img: 'gantry-media://rocketlauncher/pages/about-us/showcase/img-02.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: 'Front Desk'
-          description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.<br />\n<i class=\"fa fa-twitter-square\"></i> <i class=\"fa fa-facebook-square\"></i> <i class=\"fa fa-linkedin-square\"></i>"
-          class: ''
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: 'Maggie Greene'
-        -
-          name: 'Daryl Dixon'
-          icon: ''
-          img: 'gantry-media://rocketlauncher/pages/about-us/showcase/img-03.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: Housekeeping
-          description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.<br />\n<i class=\"fa fa-twitter-square\"></i> <i class=\"fa fa-facebook-square\"></i> <i class=\"fa fa-linkedin-square\"></i>"
-          class: ''
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: 'Daryl Dixon'
-  position-position-8807:
-    title: Aside
-    attributes:
-      key: aside
   blockcontent-2968:
     title: 'What we furnish'
     attributes:
       class: 'center g-blockcontent-spacing'
-      title: 'This is what we furnish'
+      title: 'What you will find at Bamboo B&B Roma'
       icon: ''
       image: ''
       headline: ''
-      description: 'Choose the suite that meets your needs.'
+      description: 'Enjoy your Rome vacation in a beautiful and relaxing place'
       linktext: ''
       link: ''
       linkclass: ''
       linktarget: _self
       subcontents:
         -
-          name: 'Dream Suite'
+          name: Relax
           icon: ''
-          img: 'gantry-media://rocketlauncher/pages/about-us/mainbar/img-01.jpg'
+          img: 'gantry-media://corridoio.JPG'
           rokboximage: ''
           rokboxcaption: ''
           subtitle: ''
@@ -679,11 +614,11 @@ content:
           buttonlink: ''
           buttonclass: ''
           buttontarget: _self
-          title: Dream
+          title: 'Relax Area'
         -
-          name: 'Business Suite'
+          name: Breakfast
           icon: ''
-          img: 'gantry-media://rocketlauncher/pages/about-us/mainbar/img-02.jpg'
+          img: 'gantry-media://cibo.JPG'
           rokboximage: ''
           rokboxcaption: ''
           subtitle: ''
@@ -693,11 +628,11 @@ content:
           buttonlink: ''
           buttonclass: ''
           buttontarget: _self
-          title: Business
+          title: 'Breakfast room'
         -
-          name: 'Rural Suite'
+          name: 'Sight view'
           icon: ''
-          img: 'gantry-media://rocketlauncher/pages/about-us/mainbar/img-03.jpg'
+          img: 'gantry-media://view1.JPG'
           rokboximage: ''
           rokboxcaption: ''
           subtitle: ''
@@ -707,51 +642,8 @@ content:
           buttonlink: ''
           buttonclass: ''
           buttontarget: _self
-          title: Rural
-  position-position-2316:
-    title: 'Copyright A'
+          title: views
+  position-position-8807:
+    title: Aside
     attributes:
-      key: copyright-a
-    block:
-      class: g-simpleweather-footer
-  position-position-5872:
-    title: 'Copyright B'
-    attributes:
-      key: copyright-b
-    block:
-      class: g-newsletter-footer
-  position-position-5432:
-    title: 'Copyright C'
-    attributes:
-      key: copyright-c
-    block:
-      class: g-social-footer
-  spacer-3620:
-    block:
-      class: g-bordered-spacer
-  position-position-6325:
-    title: 'Copyright D'
-    attributes:
-      key: copyright-d
-  position-position-9467:
-    title: 'Copyright E'
-    attributes:
-      key: copyright-e
-  position-position-3508:
-    title: 'Copyright F'
-    attributes:
-      key: copyright-f
-  position-position-9427:
-    title: 'Copyright G'
-    attributes:
-      key: copyright-g
-  position-position-9799:
-    title: 'Copyright H'
-    attributes:
-      key: copyright-h
-  spacer-4015:
-    block:
-      class: g-bordered-spacer
-  copyright-5748:
-    block:
-      variations: center
+      key: aside
