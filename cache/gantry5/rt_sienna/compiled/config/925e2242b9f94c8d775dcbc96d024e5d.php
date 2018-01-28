@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1517151919,
-    'checksum' => '8361ada339d81d9eb51c99981574d584',
+    'timestamp' => 1517155995,
+    'checksum' => 'af27e220d6f88e61be61dddd98138ccf',
     'files' => [
         'user/data/gantry5/themes/rt_sienna/config/default' => [
             'index' => [
@@ -12,6 +12,18 @@ return [
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/layout.yaml',
                 'modified' => 1517044621
+            ],
+            'page/assets' => [
+                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/assets.yaml',
+                'modified' => 1517155316
+            ],
+            'page/body' => [
+                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/body.yaml',
+                'modified' => 1517155316
+            ],
+            'page/head' => [
+                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/head.yaml',
+                'modified' => 1517155316
             ],
             'particles/bambooform' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bambooform.yaml',
@@ -35,7 +47,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517151919
+                'modified' => 1517155746
             ]
         ],
         'user/themes/rt_sienna/config/default' => [
@@ -522,9 +534,9 @@ return [
                 'text-color' => '#666666'
             ],
             'font' => [
-                'family-default' => 'family=Roboto:300,300italic,400,400italic',
-                'family-title' => 'family=Roboto:100,700,700italic,400,400italic',
-                'family-promo' => 'family=Roboto+Condensed:300,700italic,400,400italic',
+                'family-default' => 'family=Roboto:200,200italic,400,400italic',
+                'family-title' => 'family=Roboto:700,700italic,400,400italic',
+                'family-promo' => 'family=Roboto:700,700italic,400,400italic',
                 'family-subpromo' => 'family=Roboto:300italic',
                 'family-weather' => 'weather'
             ],
@@ -681,7 +693,7 @@ return [
                 'body_bottom' => ''
             ],
             'assets' => [
-                'favicon' => '',
+                'favicon' => 'gantry-media://favicon.gif',
                 'touchicon' => '',
                 'css' => [
                     
@@ -697,6 +709,20 @@ return [
                 'head_bottom' => '',
                 'atoms' => [
                     0 => [
+                        'id' => 'analytics-1960',
+                        'type' => 'analytics',
+                        'title' => 'Google Analytics',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'ua' => [
+                                'code' => 'UA-28099434-15',
+                                'anonym' => '0',
+                                'ssl' => '0',
+                                'debug' => '0'
+                            ]
+                        ]
+                    ],
+                    1 => [
                         'type' => 'assets',
                         'title' => 'Custom CSS / JS',
                         'attributes' => [
@@ -714,9 +740,10 @@ return [
                             'javascript' => [
                                 
                             ]
-                        ]
+                        ],
+                        'id' => 'assets-2530'
                     ],
-                    1 => [
+                    2 => [
                         'type' => 'frameworks',
                         'title' => 'JavaScript Frameworks',
                         'attributes' => [
@@ -733,7 +760,8 @@ return [
                                 'enabled' => '1',
                                 'more' => '0'
                             ]
-                        ]
+                        ],
+                        'id' => 'frameworks-8298'
                     ]
                 ]
             ]

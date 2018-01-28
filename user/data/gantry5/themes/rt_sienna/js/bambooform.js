@@ -42,7 +42,10 @@ jQuery('[data-bookingform-id]').each(function(index) {
         var startDate = jQuery(this).datepicker('getDate');
         //add 30 days to selected date
         startDate.setDate(startDate.getDate() + 30);
-        var minDate = jQuery(this).datepicker('getDate');
+        var minDate = jQuery(this).datepicker('getDate','1d');
+        var d1dt = minDate
+        minDate.setDate(minDate.getDate()+1); 
+
         //minDate of dt2 datepicker = dt1 selected day
         dt2.datepicker('setDate', minDate);
         //sets dt2 maxDate to the last day of 30 days window
@@ -50,7 +53,9 @@ jQuery('[data-bookingform-id]').each(function(index) {
         //first day which can be selected in dt2 is selected date in dt1
         dt2.datepicker('option', 'minDate', minDate);
         //same for dt1
-        $(this).datepicker('option', 'minDate', minDate);
+
+       
+        //$(this).datepicker('option', 'minDate', minDate);
     }
 });
     jQuery('#dto').datepicker({
