@@ -1,2 +1,12 @@
 cache
 .htaccess
+
+.sass-cache
+bower_components
+*.css.map
+cache/**
+logs/**
+.DS_Store
+assets/**
+backup/**
+config.codekit
