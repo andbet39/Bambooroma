@@ -144,7 +144,7 @@ layout:
             - spacer-3620
           -
             - 'simplecontent-3806 40'
-            - 'spacer-spacer-4143 60'
+            - 'spacer-4143 60'
           -
             - spacer-4015
           -
@@ -911,7 +911,7 @@ content:
           image: 'gantry-media://double_book.jpg'
           title: 'Triple Room'
           subtitle: ''
-          description: 'Spacious and bright tree beds room, which can accommodate <strong>up to 3 adults</strong>. Equipped with all comforts typical of <strong>Bamboo Bed and breakfast</strong> .'
+          description: 'Spacious and bright tree beds room, which can accommodate up to 3 adults. Equipped with all comforts typical of <strong>Bamboo Bed and breakfast</strong> .'
           price: 'Starting at 75€'
           subprice: ''
           pricedesc: 'per night'

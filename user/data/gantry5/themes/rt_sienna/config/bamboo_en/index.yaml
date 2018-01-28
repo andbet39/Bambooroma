@@ -1,5 +1,5 @@
 name: bamboo_en
-timestamp: 1517139535
+timestamp: 1517142438
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -62,7 +62,7 @@ particles:
     spacer-3607: Spacer
     spacer-9704: Spacer
     spacer-3620: Spacer
-    spacer-spacer-4143: Spacer
+    spacer-4143: Spacer
     spacer-4015: Spacer
   bambooform:
     bambooform-2806: 'Bamboo Form'
