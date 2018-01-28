@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://simplesearch/simplesearch.yaml',
-    'modified' => 1517042142,
+    'modified' => 1517038427,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
