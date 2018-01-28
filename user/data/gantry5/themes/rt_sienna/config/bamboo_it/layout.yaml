@@ -1007,6 +1007,12 @@ content:
   social-2831:
     attributes:
       title: Seguici
+      items:
+        -
+          icon: 'fa fa-facebook-official'
+          text: ''
+          link: 'https://www.facebook.com/Bed-and-Breakfast-Bamboo-203231286376723/'
+          name: Facebook
     block:
       class: g-social-footer
   spacer-3620:

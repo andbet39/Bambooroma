@@ -1,5 +1,5 @@
 name: about_bamboo_it
-timestamp: 1517164861
+timestamp: 1517181388
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -67,6 +67,14 @@ particles:
     position-position-8807: Aside
   blockcontent:
     blockcontent-2968: 'What we furnish'
+  spacer:
+    spacer-spacer-1628: Spacer
+    spacer-spacer-8913: Spacer
+    spacer-5337: Spacer
+    spacer-6614: Spacer
+    spacer-9265: Spacer
+  bambooform:
+    bambooform-2029: 'Bamboo Form'
   content:
     system-content-2183: 'Page Content'
   simpleweather:
@@ -75,15 +83,13 @@ particles:
     newsletter-1617: Newsletter
   social:
     social-6423: Social
-  spacer:
-    spacer-5337: Spacer
-    spacer-6614: Spacer
-    spacer-9265: Spacer
   copyright:
     copyright-5358: Copyright
   mobile-menu:
     mobile-menu-7951: Mobile-menu
 inherit:
+  bamboo_it:
+    bambooform-2029: bambooform-2806
   bamboo_en:
     copyrightmain: copyrightmain
     simpleweather-6081: simpleweather-6240

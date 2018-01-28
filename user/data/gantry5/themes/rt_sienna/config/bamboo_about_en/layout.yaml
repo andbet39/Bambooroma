@@ -574,7 +574,7 @@ content:
         -
           layout: header
           created_date: ''
-          content_title: 'Something About Bamboo B&B'
+          content_title: '<h1>About Bamboo B&B Roma </h1>'
           author: ''
           leading_content: 'Bamboo isn''t only a B&B, it''s rather a lifestyle. Bamboo bed and breakfast is a clean, relaxing, warm and polite environment, luxury at green prices.'
           main_content: ''
@@ -591,7 +591,7 @@ content:
     title: 'What we furnish'
     attributes:
       class: 'center g-blockcontent-spacing'
-      title: 'What you will find at Bamboo B&B Roma'
+      title: 'What you will get...'
       icon: ''
       image: ''
       headline: ''

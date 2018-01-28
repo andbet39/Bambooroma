@@ -62,7 +62,11 @@ layout:
       -
         'showcaseleft 10': {  }
       -
-        'showcasemain 80': {  }
+        'showcasemain 80':
+          -
+            - 'spacer-spacer-1628 20'
+            - 'bambooform-2029 60'
+            - 'spacer-spacer-8913 20'
       -
         'showcaseright 10': {  }
   /container-slideshow/:
@@ -574,9 +578,9 @@ content:
         -
           layout: header
           created_date: ''
-          content_title: 'Something About Bamboo B&B'
+          content_title: '<h1>Informazioni su Bamboo B&B Roma</h1>'
           author: ''
-          leading_content: 'Bamboo isn''t only a B&B, it''s rather a lifestyle. Bamboo bed and breakfast is a clean, relaxing, warm and polite environment, luxury at green prices.'
+          leading_content: 'Bamboo non è solo un Bed and Breakfast, è uno stile di vita. Bamboo B&B è calde, rilassante e lussuoso ma con prezzi verdi.'
           main_content: ''
           readmore_label: ''
           readmore_link: ''
@@ -591,11 +595,11 @@ content:
     title: 'What we furnish'
     attributes:
       class: 'center g-blockcontent-spacing'
-      title: 'What you will find at Bamboo B&B Roma'
+      title: 'Cosa troverai a Bamboo...'
       icon: ''
       image: ''
       headline: ''
-      description: 'Enjoy your Rome vacation in a beautiful and relaxing place'
+      description: 'Goditi il tuo soggiorno a Roma'
       linktext: ''
       link: ''
       linkclass: ''
@@ -616,7 +620,7 @@ content:
           buttontarget: _self
           title: 'Relax Area'
         -
-          name: Breakfast
+          name: Colazione
           icon: ''
           img: 'gantry-media://cibo.JPG'
           rokboximage: ''
@@ -630,7 +634,7 @@ content:
           buttontarget: _self
           title: 'Breakfast room'
         -
-          name: 'Sight view'
+          name: Panorami
           icon: ''
           img: 'gantry-media://view1.JPG'
           rokboximage: ''
@@ -647,3 +651,11 @@ content:
     title: Aside
     attributes:
       key: aside
+  bambooform-2029:
+    title: 'Bamboo Form'
+    inherit:
+      outline: bamboo_it
+      particle: bambooform-2806
+      include:
+        - attributes
+        - block
