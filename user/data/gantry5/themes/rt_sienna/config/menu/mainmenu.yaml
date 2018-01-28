@@ -1,126 +1,24 @@
 settings:
+  base: /
   title: Mainmenu
 ordering:
   home: ''
-  features:
-    overview: ''
-    particles: ''
-    typography: ''
-    block-variations: ''
-    documentation: ''
-    forum-support: ''
-    download: ''
-  pages:
-    -
-      about-us: ''
-      pricing: ''
-      blog: ''
-      portfolio: ''
-    -
-      contact: ''
-      error: ''
-      coming-soon: ''
-      offline: ''
-  sample-layouts:
-    fullwidth: ''
-    left-sidebar: ''
-    right-sidebar: ''
-    two-sidebars: ''
-    two-sidebars-left: ''
-    two-sidebars-right: ''
-    rows-columns: ''
-  styles: ''
+  rooms: ''
+  about-us: ''
+  contact: ''
 items:
   home:
     enabled: true
     anchor_class: ''
-  features:
+  rooms:
     enabled: true
     anchor_class: ''
-    width: 220px
-  features/overview:
+  about-us:
     enabled: true
     anchor_class: ''
-  features/particles:
+  contact:
     enabled: true
     anchor_class: ''
-  features/typography:
-    enabled: true
-    anchor_class: ''
-  features/block-variations:
-    enabled: true
-    anchor_class: ''
-  features/documentation:
-    enabled: true
-    anchor_class: ''
-  features/forum-support:
-    enabled: true
-    anchor_class: ''
-  features/download:
-    enabled: true
-    anchor_class: ''
-  pages:
-    enabled: '1'
-    dropdown: fullwidth
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: 320px
-  pages/about-us:
-    enabled: true
-    anchor_class: ''
-  pages/pricing:
-    enabled: true
-    anchor_class: ''
-  pages/blog:
-    enabled: true
-    anchor_class: ''
-  pages/portfolio:
-    enabled: true
-    anchor_class: ''
-  pages/contact:
-    enabled: true
-    anchor_class: ''
-  pages/error:
-    enabled: true
-    anchor_class: ''
-  pages/coming-soon:
-    enabled: true
-    anchor_class: ''
-  pages/offline:
-    enabled: true
-    anchor_class: ''
-  sample-layouts:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/fullwidth:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/left-sidebar:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/right-sidebar:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/two-sidebars:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/two-sidebars-left:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/two-sidebars-right:
-    enabled: true
-    anchor_class: ''
-  sample-layouts/rows-columns:
-    enabled: true
-    anchor_class: ''
-  styles:
-    object_id: 6
-    dropdown: standard
-    dropdown_dir: left
-    dropdown_hide: '1'
-    width: 35rem
-    columns:
-      - 100
   styles/__particle:
     type: particle
     particle: custom
@@ -131,12 +29,5 @@ items:
         html: "<div class=\"g-grid g-preset-thumbnails center\">\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset1\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset1.jpg\" alt=\"Preset 1\">\n                <br>\n                <span>Preset 1</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset2\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset2.jpg\" alt=\"Preset 2\">\n                <br>\n                <span>Preset 2</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset3\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset3.jpg\" alt=\"Preset 3\">\n                <br>\n                <span>Preset 3</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset4\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset4.jpg\" alt=\"Preset 4\">\n                <br>\n                <span>Preset 4</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset5\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset5.jpg\" alt=\"Preset 5\">\n                <br>\n                <span>Preset 5</span>\n            </a>\n        </div>\n    </div>\n <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset6\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset6.jpg\" alt=\"Preset 6\">\n                <br>\n                <span>Preset 6</span>\n            </a>\n        </div>\n    </div>\n\n</div>"
       block:
         extra: {  }
-  category/blog/protean-template-suited-for-multiple-websites:
-    enabled: true
-    anchor_class: ''
-  category/blog/exclusive-slider-carousel-and-flipster-particles:
-    enabled: true
-    anchor_class: ''
-  category/blog/customize-content-quickly-in-layout-manager:
     enabled: true
     anchor_class: ''

@@ -1,5 +1,5 @@
 name: bamboo_en
-timestamp: 1517066259
+timestamp: 1517139535
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -62,6 +62,7 @@ particles:
     spacer-3607: Spacer
     spacer-9704: Spacer
     spacer-3620: Spacer
+    spacer-spacer-4143: Spacer
     spacer-4015: Spacer
   bambooform:
     bambooform-2806: 'Bamboo Form'
@@ -75,12 +76,8 @@ particles:
     simplecontent-3806: 'Simple Content'
   simplemenu:
     simplemenu-8939: 'Simple Menu'
-    simplemenu-7117: 'Useful Links'
-    simplemenu-2237: Food
-    simplemenu-3870: Hotel
-    simplemenu-8458: Terms
-  simplebooking:
-    simplebooking-2293: 'Simple Booking'
+  bamboobooking:
+    bamboobooking-2667: 'Bamboo booking'
   simpleweather:
     simpleweather-6240: 'Simple Weather'
   newsletter:

@@ -1,0 +1,98 @@
+name: rooms_en
+timestamp: 1517141213
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1466236168
+positions:
+  sidebar: Sidebar
+  aside: Aside
+sections:
+  topleft: 'Top Left'
+  topright: 'Top Right'
+  headerleft: 'Header Left'
+  headerright: 'Header Right'
+  aboveleft: 'Above Left'
+  aboveright: 'Above Right'
+  sidebar: Sidebar
+  aside: Aside
+  showcaseleft: 'Showcase Left'
+  showcaseright: 'Showcase Right'
+  slideshowleft: 'Slideshow Left'
+  slideshowright: 'Slideshow Right'
+  utilityleft: 'Utility Left'
+  utilityright: 'Utility Right'
+  featureleft: 'Feature Left'
+  featureright: 'Feature Right'
+  expandedleft: 'Expanded Left'
+  expandedright: 'Expanded Right'
+  extensionleft: 'Extension Left'
+  extensionright: 'Extension Right'
+  bottomleft: 'Bottom Left'
+  bottomright: 'Bottom Right'
+  footerleft: 'Footer Left'
+  footerright: 'Footer Right'
+  copyrightleft: 'Copyright Left'
+  copyrightright: 'Copyright Right'
+  topmain: 'Top Main'
+  navigationleft: 'Navigation Left'
+  navigationmain: 'Navigation Main'
+  navigationright: 'Navigation Right'
+  abovemain: 'Above Main'
+  showcasemain: 'Showcase Main'
+  slideshowmain: 'Slideshow Main'
+  utilitymain: 'Utility Main'
+  featuremain: 'Feature Main'
+  expandedmain: 'Expanded Main'
+  extensionmain: 'Extension Main'
+  bottommain: 'Bottom Main'
+  copyrightmain: 'Copyright Main'
+  headermain: 'Header Main'
+  mainbar: Main
+  footermain: 'Footer Main'
+  offcanvas: Offcanvas
+particles:
+  messages:
+    system-messages-9828: 'System Messages'
+  logo:
+    logo-5992: Logo
+  menu:
+    menu-7876: Menu
+  simplecontent:
+    simplecontent-3044: 'Room header'
+    simplecontent-9280: 'Simple Content'
+    simplecontent-2177: 'Simple Content'
+  position:
+    position-position-8538: Sidebar
+    position-position-8807: Aside
+  blockcontent:
+    blockcontent-2968: 'What we furnish'
+  imagegrid:
+    imagegrid-2721: 'Image Grid'
+  simpleweather:
+    simpleweather-4209: 'Simple Weather'
+  newsletter:
+    newsletter-7827: Newsletter
+  social:
+    social-7082: Social
+  spacer:
+    spacer-2916: Spacer
+    spacer-4112: Spacer
+    spacer-2070: Spacer
+  copyright:
+    copyright-3600: Copyright
+  mobile-menu:
+    mobile-menu-7951: Mobile-menu
+inherit:
+  bamboo_en:
+    menu-7876: menu-7876
+    copyrightmain: copyrightmain
+    simpleweather-4209: simpleweather-6240
+    newsletter-7827: newsletter-6777
+    social-7082: social-2831
+    spacer-2916: spacer-3620
+    simplecontent-2177: simplecontent-3806
+    spacer-4112: spacer-4143
+    spacer-2070: spacer-4015
+    copyright-3600: copyright-5748

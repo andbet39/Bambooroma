@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1517044867,
-    'checksum' => 'be9bf34343626c959e68eb4e1648273c',
+    'timestamp' => 1517139940,
+    'checksum' => 'b1ee978d388e87ad083a5115914f60d0',
     'files' => [
         'user/data/gantry5/themes/rt_sienna/config/default' => [
             'index' => [
@@ -31,135 +31,139 @@ return [
             ],
             'particles/accordion' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/accordion.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
+            ],
+            'particles/bambooform' => [
+                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bambooform.yaml',
+                'modified' => 1517132494
             ],
             'particles/blockcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/blockcontent.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/bookblock' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookblock.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/bookingform' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookingform.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/content.yaml',
-                'modified' => 1517044581
+                'modified' => 1517132494
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/contentarray.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/custom.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/date.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/gridcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridcontent.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/gridstatistic' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridstatistic.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/imagegrid' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/imagegrid.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/infolist' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/infolist.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/login.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/menu.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/messages.yaml',
-                'modified' => 1517044581
+                'modified' => 1517132494
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/mobile-menu.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/newsletter' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/newsletter.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/owlcarousel.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/position.yaml',
-                'modified' => 1517044581
+                'modified' => 1517132494
             ],
             'particles/pricingtable' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/pricingtable.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/search' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/search.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/simplebooking' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplebooking.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/simplecontent' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecontent.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/simplecounter' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecounter.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/simplemenu' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplemenu.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/simpleweather' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simpleweather.yaml',
-                'modified' => 1517044580
+                'modified' => 1517132494
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517044581
+                'modified' => 1517132494
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/spacer.yaml',
-                'modified' => 1517044581
+                'modified' => 1517132494
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517044581
+                'modified' => 1517132494
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517042138
+                'modified' => 1517125389
             ]
         ],
         'user/themes/rt_sienna/config/default' => [
@@ -203,6 +207,37 @@ return [
     ],
     'data' => [
         'particles' => [
+            'bamboobooking' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'checkin' => 'Check in date',
+                'checkin_placeholder' => 'Select Date',
+                'checkout' => 'Check out date',
+                'checkout_placeholder' => 'Select Date',
+                'adults' => 'Adults',
+                'adults_min' => 1,
+                'adults_max' => 9,
+                'children' => 'Children',
+                'children_min' => 0,
+                'children_max' => 9,
+                'button' => 'Submit',
+                'thankyou' => 'Thank you for making your reservation. We will be contacting you soon about the details.',
+                'error' => 'Failed to send your reservation. Please try later or contact administrator.'
+            ],
+            'bambooform' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => '1',
+                'button1' => 'Submit',
+                'token' => '',
+                'class' => '',
+                'items' => [
+                    
+                ]
+            ],
             'accordion' => [
                 'caching' => [
                     'type' => 'static'
@@ -370,7 +405,7 @@ return [
                 ],
                 'enabled' => '1',
                 'units' => 'c',
-                'location' => 'Austin, TX',
+                'location' => 'Rome , IT',
                 'show_location' => 'disabled',
                 'class' => '',
                 'title' => '',
@@ -392,10 +427,10 @@ return [
                 ],
                 'enabled' => '1',
                 'date' => [
-                    'start' => '2007',
+                    'start' => '2014',
                     'end' => 'now'
                 ],
-                'owner' => 'RocketTheme LLC. Photos by Pexels, Tookapic and Unsplash.',
+                'owner' => 'Bamboo Bed and Breakfast Roma ,Italy',
                 'link' => '',
                 'target' => '_blank',
                 'css' => [
@@ -465,22 +500,10 @@ return [
                         'name' => 'Twitter'
                     ],
                     1 => [
-                        'icon' => 'fa fa-youtube-play fa-fw',
+                        'icon' => 'fa fa-facebook-official',
                         'text' => '',
-                        'link' => 'http://www.youtube.com/rockettheme',
-                        'name' => 'YouTube'
-                    ],
-                    2 => [
-                        'icon' => 'fa fa-instagram fa-fw',
-                        'text' => '',
-                        'link' => '#',
-                        'name' => 'Instagram'
-                    ],
-                    3 => [
-                        'icon' => 'fa fa-pinterest fa-fw',
-                        'text' => '',
-                        'link' => '#',
-                        'name' => 'Pinterest'
+                        'link' => 'https://www.facebook.com/Bed-and-Breakfast-Bamboo-203231286376723/',
+                        'name' => 'Facebook'
                     ]
                 ]
             ],
@@ -645,7 +668,7 @@ return [
             'base' => [
                 'background' => '#ffffff',
                 'text-color' => '#666666',
-                'background-image' => 'gantry-media://backgrounds/header/img-01.jpg'
+                'background-image' => 'gantry-media://bamboo1.jpg'
             ],
             'bottom' => [
                 'background' => '#f5f5f5',
@@ -706,7 +729,7 @@ return [
                 'text-color' => '#ffffff',
                 'toggle-color' => '#ffffff',
                 'width' => '10rem',
-                'toggle-visibility' => 1
+                'toggle-visibility' => '1'
             ],
             'showcase' => [
                 'background' => '#ffffff',
@@ -814,7 +837,8 @@ return [
                         'toggle-color' => '#ffffff'
                     ]
                 ]
-            ]
+            ],
+            'preset' => 'preset1'
         ],
         'page' => [
             'body' => [

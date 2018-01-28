@@ -1,0 +1,81 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% do gantry.load('lightcase.init') %}
+
+{% block particle %}
+<div id="g-{{ id }}" data-simplebooking-id="g-{{ id }}"  class="{{ particle.class|e }}">
+    <form id="g-{{ id }}-form" data-simplebooking-id="g-{{ id }}-form" data-simplebooking-requiredmessage="{{ particle.required }}" class="g-simplebooking-form g-simplebooking-mainform" action="#" method="post">
+        <div class="g-simplebooking-visible">
+            <div class="g-simplebooking-item  g-simplebooking-calendar">
+                <label>{{ particle.checkin }}<sup>*</sup></label>
+                <input type="text" id="booking_dfrom" class="g-simplebooking-datepicker g-simplebooking-item-required g-simplebooking-item-id-1" name="dfrom" placeholder="{{ particle.checkin_placeholder }}">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class="g-simplebooking-item  g-simplebooking-calendar">
+                <label>{{ particle.checkout }}<sup>*</sup></label>
+                <input type="text" id="booking_dto" class="g-simplebooking-datepicker g-simplebooking-item-required g-simplebooking-item-id-2" name="dto" placeholder="{{ particle.checkout_placeholder }}">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+        </div>
+    </form>
+
+    <div class="g-simplebooking-items">
+        {% for item in particle.items %}
+        <div id="g-{{ id }}-{{ loop.index }}" data-id="g-{{ id }}-{{ loop.index }}" data-adults="{{ item.adults }}" data-children="{{ item.children }}"  class="g-simplebooking-item">
+            <div class="g-simplebooking-item-container g-simplebooking-list">
+                {% if item.image %}
+                <div class="g-simplebooking-item-image">
+                    <a class="g-simplebooking-item-link" href="{{ url(item.image)|e }}" data-rel="lightcase">
+                        <img src="{{ url(item.image)|e }}" alt="{{ item.title|e }}" />
+                        <div class="indicator">
+                            <div>
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endif %}
+                <div class="g-simplebooking-item-content">
+                    <div class="g-simplebooking-item-title">
+                        <span class="g-simplebooking-item-maintitle">{{ item.title }}</span>
+                        <span class="g-simplebooking-item-subtitle">{{ item.subtitle }}</span>
+                    </div>
+                    <p class="g-simplebooking-item-description">{{ item.description }}</p>
+                </div>
+                <div class="g-simplebooking-item-pricing">
+                    <div class="g-simplebooking-item-price">
+                        {{ item.price }}<sup>{{ item.subprice }}</sup>
+                    </div>
+                    <div class="g-simplebooking-item-price-description">
+                        {{ item.pricedesc }}
+                    </div>
+                </div>
+                <div class="g-simplebooking-item-button">
+                        <form id="g-simplebooking-submit-{{ id }}"  action="#" method="post">
+                                <input type="hidden" class="occupancy-field" name="occupancy" value="{{item.adults}}" />
+                                <a href="javascript:;" class="button">{{ item.button|raw }}</a>
+                        </form>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block javascript_footer %}
+<script src="https://wubook.net/js/wblib.jgz"></script>
+
+<script src="{{ url('gantry-theme://js/datepicker.js') }}"></script>
+<script src="{{ url('gantry-theme://js/spinner.js') }}"></script>
+<script src="{{ url('gantry-theme://js/bamboobooking.js') }}"></script>
+
+<script type="text/javascript">
+window.getSize = function() {
+    return {
+        x: window.innerWidth,
+        y: window.innerHeight
+    }
+};
+</script>
+{% endblock %}

@@ -11,17 +11,7 @@ items:
     link: 'http://www.twitter.com/rockettheme'
     name: Twitter
   -
-    icon: 'fa fa-youtube-play fa-fw'
+    icon: 'fa fa-facebook-official'
     text: ''
-    link: 'http://www.youtube.com/rockettheme'
-    name: YouTube
-  -
-    icon: 'fa fa-instagram fa-fw'
-    text: ''
-    link: '#'
-    name: Instagram
-  -
-    icon: 'fa fa-pinterest fa-fw'
-    text: ''
-    link: '#'
-    name: Pinterest
+    link: 'https://www.facebook.com/Bed-and-Breakfast-Bamboo-203231286376723/'
+    name: Facebook

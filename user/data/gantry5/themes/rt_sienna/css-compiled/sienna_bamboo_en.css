@@ -1106,7 +1106,7 @@ body .g-middle-column {
 /* line 142, user/themes/rt_sienna/scss/sienna/styles/_utilities.scss */
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
   position: absolute;
-  background: #1da168;
+  background: #58bd91;
   border: none;
   height: 2.2em;
   width: 1.4em;
@@ -1119,12 +1119,12 @@ body .g-middle-column {
 /* line 157, user/themes/rt_sienna/scss/sienna/styles/_utilities.scss */
 .ui-datepicker .ui-datepicker-prev {
   left: 0;
-  border-right: 1px solid #1da168;
+  border-right: 1px solid #58bd91;
 }
 /* line 162, user/themes/rt_sienna/scss/sienna/styles/_utilities.scss */
 .ui-datepicker .ui-datepicker-next {
   right: 0;
-  border-left: 1px solid #1da168;
+  border-left: 1px solid #58bd91;
 }
 /* line 167, user/themes/rt_sienna/scss/sienna/styles/_utilities.scss */
 .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
@@ -1199,7 +1199,7 @@ td a.ui-state-active, td a.ui-state-active.ui-state-hover {
 }
 /* line 1, user/themes/rt_sienna/scss/sienna/styles/_hyperlinks.scss */
 a {
-  color: #1da168;
+  color: #58bd91;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -1518,14 +1518,14 @@ hr {
 /* line 84, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 /* line 85, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 .title1 .g-title {
-  color: #1da168;
+  color: #58bd91;
   border: 0 none;
 }
 /* line 91, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 /* line 92, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 .box1.moduletable, .box1.widget, .box1.g-outer-box, .box1 > .g-content {
   color: #fff;
-  background: #1da168;
+  background: #58bd91;
   border-radius: 4px;
 }
 /* line 100, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
@@ -1543,9 +1543,9 @@ hr {
 }
 /* line 114, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 .box1 .button {
-  background-color: #0d4b30 !important;
-  background-image: -webkit-linear-gradient(-225deg, #0d4b30 50%, #15764c 50%) !important;
-  background-image: linear-gradient(-45deg, #0d4b30 50%, #15764c 50%) !important;
+  background-color: #327d5c !important;
+  background-image: -webkit-linear-gradient(-225deg, #327d5c 50%, #40a277 50%) !important;
+  background-image: linear-gradient(-45deg, #327d5c 50%, #40a277 50%) !important;
   box-shadow: none;
 }
 /* line 122, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
@@ -1561,8 +1561,8 @@ hr {
 }
 /* line 132, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 .box1 .button.button-3:hover, .title1 .button.button-3:hover, .box1 .button.button-4:hover, .title1 .button.button-4:hover, .box1 .button.button-3:active, .title1 .button.button-3:active, .box1 .button.button-4:active, .title1 .button.button-4:active, .box1 .button.button-3:focus, .title1 .button.button-3:focus, .box1 .button.button-4:focus, .title1 .button.button-4:focus {
-  color: #31da91 !important;
-  border-color: #31da91;
+  color: #8fd3b5 !important;
+  border-color: #8fd3b5;
 }
 /* line 140, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 /* line 141, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
@@ -1629,8 +1629,8 @@ hr {
 /* line 212, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 /* line 213, user/themes/rt_sienna/scss/sienna/styles/_variations.scss */
 .title4 .g-title {
-  color: #1da168;
-  border: 2px solid #1da168;
+  color: #58bd91;
+  border: 2px solid #58bd91;
   font-size: 1.5rem;
   border-radius: 4px;
   padding: 0.925rem 0.625rem 0.625rem 0.625rem;
@@ -2123,8 +2123,8 @@ hr {
   font-weight: 900;
   font-style: italic;
   background-color: #33a58c;
-  background-image: -webkit-linear-gradient(-225deg, #33a58c 55%, #1da168 55%);
-  background-image: linear-gradient(-45deg,#33a58c 55%, #1da168 55%);
+  background-image: -webkit-linear-gradient(-225deg, #33a58c 55%, #58bd91 55%);
+  background-image: linear-gradient(-45deg,#33a58c 55%, #58bd91 55%);
   color: #fff;
   font-size: 1.375rem;
   line-height: 1.8;
@@ -2211,8 +2211,8 @@ hr {
 /* line 101, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-2 {
   background-color: #33a58c;
-  background-image: -webkit-linear-gradient(-225deg, #33a58c 50%, #1da168 50%);
-  background-image: linear-gradient(-45deg,#33a58c 50%, #1da168 50%);
+  background-image: -webkit-linear-gradient(-225deg, #33a58c 50%, #58bd91 50%);
+  background-image: linear-gradient(-45deg,#33a58c 50%, #58bd91 50%);
   color: #fff;
 }
 /* line 105, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
@@ -2227,13 +2227,13 @@ hr {
 }
 /* line 115, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-3:hover, .button.button-3:active, .button.button-3:focus {
-  background: #1da168 !important;
+  background: #58bd91 !important;
   color: #fff !important;
 }
 /* line 121, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-4 {
   color: #fff !important;
-  background: #1da168 !important;
+  background: #58bd91 !important;
 }
 /* line 125, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-4:hover, .button.button-4:active, .button.button-4:focus {
@@ -2399,8 +2399,8 @@ hr {
   bottom: -8px;
   left: -8px;
   right: 8px;
-  border-left: 1px solid #177e52;
-  border-bottom: 1px solid #177e52;
+  border-left: 1px solid #43a97d;
+  border-bottom: 1px solid #43a97d;
 }
 /* line 295, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 /* line 296, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
@@ -2411,8 +2411,8 @@ hr {
   bottom: -8px;
   right: -8px;
   left: 8px;
-  border-right: 1px solid #177e52;
-  border-bottom: 1px solid #177e52;
+  border-right: 1px solid #43a97d;
+  border-bottom: 1px solid #43a97d;
 }
 /* line 309, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-outline {
@@ -2434,30 +2434,30 @@ hr {
 }
 /* line 328, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-outline:hover {
-  border: 1px solid #1da168;
-  color: #1da168 !important;
+  border: 1px solid #58bd91;
+  color: #58bd91 !important;
 }
 /* line 332, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 /* line 333, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .dir-ltr .button.button-outline:hover:before {
-  border-left: 1px solid #1da168;
-  border-bottom: 1px solid #1da168;
+  border-left: 1px solid #58bd91;
+  border-bottom: 1px solid #58bd91;
 }
 /* line 339, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 /* line 340, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .dir-rtl .button.button-outline:hover:after {
-  border-right: 1px solid #1da168;
-  border-bottom: 1px solid #1da168;
+  border-right: 1px solid #58bd91;
+  border-bottom: 1px solid #58bd91;
 }
 /* line 348, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-text-only {
   padding: 0 !important;
   background: transparent !important;
-  color: #1da168 !important;
+  color: #58bd91 !important;
 }
 /* line 353, user/themes/rt_sienna/scss/sienna/styles/_buttons.scss */
 .button.button-text-only:hover {
-  color: #11603e;
+  color: #39906a;
 }
 /* line 1, user/themes/rt_sienna/scss/sienna/styles/_tables.scss */
 table {
@@ -2481,11 +2481,11 @@ textarea, select[multiple=multiple] {
 }
 /* line 6, user/themes/rt_sienna/scss/sienna/styles/_forms.scss */
 textarea:hover, select[multiple=multiple]:hover {
-  border-color: #1da168;
+  border-color: #58bd91;
 }
 /* line 10, user/themes/rt_sienna/scss/sienna/styles/_forms.scss */
 textarea:focus, select[multiple=multiple]:focus {
-  border-color: #1da168;
+  border-color: #58bd91;
 }
 /* line 15, user/themes/rt_sienna/scss/sienna/styles/_forms.scss */
 textarea {
@@ -2512,11 +2512,11 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 }
 /* line 36, user/themes/rt_sienna/scss/sienna/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
-  border-color: #1da168;
+  border-color: #58bd91;
 }
 /* line 40, user/themes/rt_sienna/scss/sienna/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-  border-color: #1da168;
+  border-color: #58bd91;
 }
 /* line 2, user/themes/rt_sienna/scss/sienna/styles/_sienna-style.scss */
 /* line 3, user/themes/rt_sienna/scss/sienna/styles/_sienna-style.scss */
@@ -2886,7 +2886,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 225, user/themes/rt_sienna/scss/sienna/styles/_sienna-style.scss */
 .fp-feature-simplemenu .g-simplemenu-particle i {
   font-size: 1rem;
-  color: #1da168;
+  color: #58bd91;
   margin-right: 0.625rem;
 }
 /* line 229, user/themes/rt_sienna/scss/sienna/styles/_sienna-style.scss */
@@ -3106,7 +3106,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/rt_sienna/scss/sienna/sections/_top.scss */
 #g-container-top {
-  background: #1da168;
+  background: #58bd91;
   color: #fff;
 }
 @media print {
@@ -3235,7 +3235,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 88, user/themes/rt_sienna/scss/sienna/sections/_navigation.scss */
 #g-container-navigation .g-main-nav .g-sublevel > li > .g-menu-item-container:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 92, user/themes/rt_sienna/scss/sienna/sections/_navigation.scss */
 /* line 93, user/themes/rt_sienna/scss/sienna/sections/_navigation.scss */
@@ -3260,7 +3260,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/rt_sienna/scss/sienna/sections/_header.scss */
 #g-container-header {
-  background: #1da168;
+  background: #58bd91;
   color: #fff;
   position: relative;
 }
@@ -3602,15 +3602,15 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 190, user/themes/rt_sienna/scss/sienna/sections/_offcanvas.scss */
 /* line 191, user/themes/rt_sienna/scss/sienna/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
-  border: 1px solid #22bb79;
-  background: #1a905d;
+  border: 1px solid #6ec69f;
+  background: #49b787;
   border-radius: 0.1875rem;
   margin: -0.3rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
 /* line 195, user/themes/rt_sienna/scss/sienna/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover {
-  background: #177e52;
+  background: #43a97d;
 }
 /* line 207, user/themes/rt_sienna/scss/sienna/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul .g-dropdown-column {
@@ -3707,7 +3707,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 11, user/themes/rt_sienna/scss/sienna/particles/_social.scss */
 .g-social a:hover {
-  color: #1da168 !important;
+  color: #58bd91 !important;
 }
 @media only all and (max-width: 47.938rem) {
   .g-social {
@@ -3988,7 +3988,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 269, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .owl-nav div:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 @media only all and (max-width: 30rem) {
   .owl-nav div {
@@ -4089,7 +4089,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 369, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .g-owlcarousel-layout-standard .g-title {
-  color: #1da168;
+  color: #58bd91;
   padding: 0;
 }
 /* line 374, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
@@ -4220,7 +4220,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 486, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .g-owlcarousel-layout-standard .owl-item > div .g-owlcarousel-item-link .g-owlcarousel-item-button:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 494, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .g-owlcarousel-layout-standard .owl-dots {
@@ -4637,7 +4637,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 827, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .g-owlcarousel-layout-newsslider .g-item-title {
-  color: #1da168;
+  color: #58bd91;
   font-weight: 400;
   font-size: 1.6rem;
 }
@@ -4932,7 +4932,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1064, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .g-owlcarousel-panel-container .g-owlcarousel-panel .g-owlcarousel-panel-subtitle {
-  color: #1da168;
+  color: #58bd91;
   font-family: "muli", sans-serif, "Tahoma", "Geneva", "Arial";
   font-weight: 400;
   font-size: 1.1rem;
@@ -4944,7 +4944,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1075, user/themes/rt_sienna/scss/sienna/particles/_owlcarousel.scss */
 .g-owlcarousel-panel-container .g-owlcarousel-panel .g-owlcarousel-panel-desc {
-  color: #1da168;
+  color: #58bd91;
   font-family: "muli", sans-serif, "Tahoma", "Geneva", "Arial";
   font-weight: 400;
   font-size: 1.1rem;
@@ -4971,7 +4971,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 4, user/themes/rt_sienna/scss/sienna/particles/_blockcontent.scss */
 .g-blockcontent .g-title {
-  color: #1da168;
+  color: #58bd91;
   padding: 0;
 }
 /* line 10, user/themes/rt_sienna/scss/sienna/particles/_blockcontent.scss */
@@ -5086,7 +5086,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 3.1rem;
   line-height: 1.5;
   font-weight: 400;
-  color: #1da168;
+  color: #58bd91;
 }
 @media only all and (max-width: 47.938rem) {
   .g-gridstatistic .g-gridstatistic-item-text1 {
@@ -5420,7 +5420,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-family: "muli", sans-serif, "Tahoma", "Geneva", "Arial";
   color: #fff;
   text-transform: uppercase;
-  background: #1da168;
+  background: #58bd91;
   width: 135px;
   top: 30px;
   right: -30px;
@@ -5449,7 +5449,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 114, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 .g-pricingtable .g-pricingtable-price {
-  color: #1da168;
+  color: #58bd91;
   font-size: 2.2rem;
   font-weight: 400;
 }
@@ -5494,7 +5494,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 154, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 .g-pricingtable .g-pricingtable-item .fa {
-  color: #1da168;
+  color: #58bd91;
   padding-right: 0.625rem;
 }
 /* line 158, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
@@ -5506,11 +5506,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 167, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 /* line 168, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 .g-pricingtable-accent1 .g-pricingtable .g-pricingtable-plan a, .g-pricingtable-accent1 .g-pricingtable .g-pricingtable-price, .g-pricingtable-accent1 .g-pricingtable .g-pricingtable-item .fa, .g-pricingtable-accent1 .g-pricingtable .g-pricingtable-item, .g-pricingtable-accent1 .g-pricingtable .g-pricingtable-period {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 172, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 .g-pricingtable-accent1 .g-pricingtable .button {
-  background: #1da168;
+  background: #58bd91;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -5522,7 +5522,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 184, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 .g-pricingtable-accent1 .g-pricingtable .g-pricingtable-ribbon {
-  background-color: #1da168;
+  background-color: #58bd91;
 }
 /* line 190, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
 /* line 191, user/themes/rt_sienna/scss/sienna/particles/_pricingtable.scss */
@@ -5681,7 +5681,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 94, user/themes/rt_sienna/scss/sienna/particles/_infolist.scss */
 .g-infolist .g-infolist-item-icon {
   font-size: 2rem;
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 98, user/themes/rt_sienna/scss/sienna/particles/_infolist.scss */
 .g-infolist .g-infolist-item-icon.left {
@@ -5919,7 +5919,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 63, user/themes/rt_sienna/scss/sienna/particles/_newsletter.scss */
 .g-newsletter .g-newsletter-button .g-newsletter-button-icon {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 66, user/themes/rt_sienna/scss/sienna/particles/_newsletter.scss */
 .g-newsletter .g-newsletter-button .g-newsletter-button-icon i {
@@ -6248,8 +6248,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .g-imagegrid .g-imagegrid-link:before {
   color: #fff;
   background-color: rgba(51, 165, 140, 0.65);
-  background-image: -webkit-linear-gradient(-225deg, rgba(51, 165, 140, 0.65) 50%, rgba(29, 161, 104, 0.65) 50%);
-  background-image: linear-gradient(-45deg,rgba(51, 165, 140, 0.65) 50%, rgba(29, 161, 104, 0.65) 50%);
+  background-image: -webkit-linear-gradient(-225deg, rgba(51, 165, 140, 0.65) 50%, rgba(88, 189, 145, 0.65) 50%);
+  background-image: linear-gradient(-45deg,rgba(51, 165, 140, 0.65) 50%, rgba(88, 189, 145, 0.65) 50%);
   content: "";
   position: absolute;
   z-index: 1;
@@ -6376,7 +6376,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 20, user/themes/rt_sienna/scss/sienna/particles/_gridcontent.scss */
 .g-gridcontent .g-gridcontent-item .g-gridcontent-item-wrapper i.fa {
   font-size: 2.8rem;
-  color: #1da168;
+  color: #58bd91;
   margin: 1rem auto 2.5rem auto;
 }
 /* line 25, user/themes/rt_sienna/scss/sienna/particles/_gridcontent.scss */
@@ -6391,11 +6391,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 32, user/themes/rt_sienna/scss/sienna/particles/_gridcontent.scss */
 /* line 33, user/themes/rt_sienna/scss/sienna/particles/_gridcontent.scss */
 .g-gridcontent .g-gridcontent-item .g-gridcontent-item-wrapper.g-gridcontent-accent1 .fa, .g-gridcontent .g-gridcontent-item .g-gridcontent-item-wrapper.g-gridcontent-accent1 a {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 36, user/themes/rt_sienna/scss/sienna/particles/_gridcontent.scss */
 .g-gridcontent .g-gridcontent-item .g-gridcontent-item-wrapper.g-gridcontent-accent1:hover {
-  background-color: #1da168;
+  background-color: #58bd91;
   color: #fff;
 }
 /* line 39, user/themes/rt_sienna/scss/sienna/particles/_gridcontent.scss */
@@ -6602,11 +6602,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 31, user/themes/rt_sienna/scss/sienna/particles/_accordion.scss */
 /* line 32, user/themes/rt_sienna/scss/sienna/particles/_accordion.scss */
 .accordion li.active .accordion-item-title {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 36, user/themes/rt_sienna/scss/sienna/particles/_accordion.scss */
 .accordion li.active .toggle {
-  background: #1da168;
+  background: #58bd91;
 }
 /* line 41, user/themes/rt_sienna/scss/sienna/particles/_accordion.scss */
 .accordion li div {
@@ -6643,8 +6643,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   border-radius: 4px;
   margin-bottom: 0.5rem;
   color: #fff;
-  background: -webkit-linear-gradient(#15764c 0%, #15764c 50%, #1da168 50%, #1da168 100%);
-  background: linear-gradient(to   , #15764c 50%, #1da168 50%, #1da168 100%);
+  background: -webkit-linear-gradient(#40a277 0%, #40a277 50%, #58bd91 50%, #58bd91 100%);
+  background: linear-gradient(to   , #40a277 50%, #58bd91 50%, #58bd91 100%);
 }
 @media only all and (max-width: 47.938rem) {
   .g-simplecounter-calendar .number {
@@ -6792,7 +6792,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 36, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 .bb-bookblock nav div:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 39, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 /* line 40, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
@@ -6840,7 +6840,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 76, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 .bb-bookblock .bb-item:first-child .bb-nav-prev:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 81, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 /* line 82, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
@@ -6855,7 +6855,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 91, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 .rtl .bb-bookblock .bb-item:first-child .bb-nav-next:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 98, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 /* line 99, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
@@ -6865,7 +6865,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 103, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 .bb-bookblock .bb-item:last-child .bb-nav-next:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 108, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 /* line 109, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
@@ -6880,7 +6880,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 118, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 .rtl .bb-bookblock .bb-item:last-child .bb-nav-prev:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 125, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
 .bb-bookblock .bb-item-category {
@@ -6901,7 +6901,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .bb-bookblock .bb-item-title {
   font-weight: 400;
   font-size: 2rem;
-  color: #1da168;
+  color: #58bd91;
 }
 @media only all and (max-width: 47.938rem) {
   .bb-bookblock .bb-item-title {
@@ -7148,7 +7148,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   width: 50%;
   float: left;
   height: 100%;
-  background: #1da168;
+  background: #58bd91;
   overflow: hidden;
 }
 /* line 392, user/themes/rt_sienna/scss/sienna/particles/_bookblock.scss */
@@ -7379,7 +7379,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 98, user/themes/rt_sienna/scss/sienna/particles/_bookingform.scss */
 .g-bookingform .g-bookingform-spinners a:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 104, user/themes/rt_sienna/scss/sienna/particles/_bookingform.scss */
 .g-bookingform .alert {
@@ -7596,7 +7596,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   display: block;
   padding-top: 0.625rem;
   padding-left: 1.8rem;
-  color: #1da168;
+  color: #58bd91;
   cursor: pointer;
 }
 /* line 120, user/themes/rt_sienna/scss/sienna/particles/_simplebooking.scss */
@@ -7634,7 +7634,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 149, user/themes/rt_sienna/scss/sienna/particles/_simplebooking.scss */
 .g-simplebooking-form .g-simplebooking-spinners a:hover {
-  color: #1da168;
+  color: #58bd91;
 }
 /* line 155, user/themes/rt_sienna/scss/sienna/particles/_simplebooking.scss */
 .g-simplebooking-form .g-simplebooking-visible {
@@ -7770,8 +7770,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .g-simplebooking-items .g-simplebooking-item .g-simplebooking-item-image .g-simplebooking-item-link:before {
   color: #fff;
   background-color: rgba(51, 165, 140, 0.65);
-  background-image: -webkit-linear-gradient(-225deg, rgba(51, 165, 140, 0.65) 50%, rgba(29, 161, 104, 0.65) 50%);
-  background-image: linear-gradient(-45deg,rgba(51, 165, 140, 0.65) 50%, rgba(29, 161, 104, 0.65) 50%);
+  background-image: -webkit-linear-gradient(-225deg, rgba(51, 165, 140, 0.65) 50%, rgba(88, 189, 145, 0.65) 50%);
+  background-image: linear-gradient(-45deg,rgba(51, 165, 140, 0.65) 50%, rgba(88, 189, 145, 0.65) 50%);
   content: "";
   position: absolute;
   z-index: 1;
