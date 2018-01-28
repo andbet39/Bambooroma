@@ -1,5 +1,5 @@
 name: rooms_en
-timestamp: 1517142438
+timestamp: 1517146343
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -70,8 +70,6 @@ particles:
     blockcontent-2968: 'What we furnish'
   imagegrid:
     imagegrid-2721: 'Image Grid'
-  mobile-menu:
-    mobile-menu-7951: Mobile-menu
   simpleweather:
     simpleweather-4209: 'Simple Weather'
   newsletter:
@@ -84,6 +82,8 @@ particles:
     spacer-2070: Spacer
   copyright:
     copyright-3600: Copyright
+  mobile-menu:
+    mobile-menu-7951: Mobile-menu
 inherit:
   bamboo_en:
     menu-7876: menu-7876

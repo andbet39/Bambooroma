@@ -660,12 +660,47 @@ content:
       class: ''
       title: ''
       desc: ''
-      cols: g-imagegrid-5cols
+      cols: g-imagegrid-4cols
       layout: g-imagegrid-standard
       album: 'Room Gallery'
       imagegriditems:
         -
           image: 'gantry-media://room_quad.jpg'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room1.jpg'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room4.JPG'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room5.JPG'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room3.JPG'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room_8.JPG'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room6.JPG'
+          caption: ''
+          icon: 'fa fa-search'
+          title: 'New item'
+        -
+          image: 'gantry-media://room7.JPG'
           caption: ''
           icon: 'fa fa-search'
           title: 'New item'
