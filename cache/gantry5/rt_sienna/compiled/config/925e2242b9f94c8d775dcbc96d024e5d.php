@@ -1,207 +1,79 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1517139940,
-    'checksum' => 'b1ee978d388e87ad083a5115914f60d0',
+    'timestamp' => 1517148031,
+    'checksum' => 'b46cfe2e531856d5e8250f914927b670',
     'files' => [
         'user/data/gantry5/themes/rt_sienna/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/index.yaml',
-                'modified' => 1517044621
+                'modified' => 1517067084
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/layout.yaml',
-                'modified' => 1517044621
-            ],
-            'menu' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/menu.yaml',
-                'modified' => 1517042138
-            ],
-            'page/assets' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/assets.yaml',
-                'modified' => 1517042138
-            ],
-            'page/body' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/body.yaml',
-                'modified' => 1517042138
-            ],
-            'page/head' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/page/head.yaml',
-                'modified' => 1517042138
-            ],
-            'particles/accordion' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/accordion.yaml',
-                'modified' => 1517132494
+                'modified' => 1517067084
             ],
             'particles/bambooform' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bambooform.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/blockcontent' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/blockcontent.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/bookblock' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookblock.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/bookingform' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/bookingform.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/branding' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/content' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/content.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/contentarray' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/contentarray.yaml',
-                'modified' => 1517132494
+                'modified' => 1517145307
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/custom' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/custom.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/date' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/date.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/gridcontent' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridcontent.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/gridstatistic' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/gridstatistic.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/imagegrid' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/imagegrid.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/infolist' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/infolist.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/login' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/login.yaml',
-                'modified' => 1517132494
+                'modified' => 1517145307
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/menu' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/menu.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/messages' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/messages.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/mobile-menu' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/mobile-menu.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/newsletter' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/newsletter.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/owlcarousel' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/owlcarousel.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/position' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/position.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/pricingtable' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/pricingtable.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/search' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/search.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/simplebooking' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplebooking.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/simplecontent' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecontent.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/simplecounter' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplecounter.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/simplemenu' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simplemenu.yaml',
-                'modified' => 1517132494
+                'modified' => 1517067084
             ],
             'particles/simpleweather' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/simpleweather.yaml',
-                'modified' => 1517132494
+                'modified' => 1517145307
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/spacer' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/spacer.yaml',
-                'modified' => 1517132494
-            ],
-            'particles/totop' => [
-                'file' => 'user/data/gantry5/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517132494
+                'modified' => 1517145307
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517125389
+                'modified' => 1517145307
             ]
         ],
         'user/themes/rt_sienna/config/default' => [
             'page/assets' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/assets.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'page/body' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/body.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'page/head' => [
                 'file' => 'user/themes/rt_sienna/config/default/page/head.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'particles/branding' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/branding.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/copyright.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'particles/logo' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/logo.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'particles/social' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/social.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'particles/totop' => [
                 'file' => 'user/themes/rt_sienna/config/default/particles/totop.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ],
             'styles' => [
                 'file' => 'user/themes/rt_sienna/config/default/styles.yaml',
-                'modified' => 1517042142
+                'modified' => 1517038322
             ]
         ]
     ],
@@ -242,26 +114,26 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1'
+                'enabled' => true
             ],
             'blockcontent' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'linktarget' => '_self'
             ],
             'bookblock' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1'
+                'enabled' => true
             ],
             'bookingform' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'button1' => 'Submit',
                 'button2' => 'Submit',
                 'name' => 'Name',
@@ -269,18 +141,13 @@ return [
                 'email' => 'Email',
                 'email_placeholder' => 'Please enter your email',
                 'thankyou' => 'Thank you for making your reservation. We will be contacting you soon about the details.',
-                'error' => 'Failed to send your reservation. Please try later or contact administrator.',
-                'token' => '',
-                'class' => '',
-                'items' => [
-                    
-                ]
+                'error' => 'Failed to send your reservation. Please try later or contact administrator.'
             ],
             'gridcontent' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'readmoreclass' => 'button-3',
                 'cols' => 'g-gridcontent-2cols'
             ],
@@ -288,7 +155,7 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'readmoreclass' => 'button-3',
                 'cols' => 'g-gridstatistic-2cols'
             ],
@@ -296,7 +163,7 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'cols' => 'g-imagegrid-2cols',
                 'layout' => 'g-imagegrid-standard',
                 'album' => 'Gallery'
@@ -305,99 +172,67 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'cols' => 'g-1cols'
             ],
             'newsletter' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'width' => 'g-newsletter-fullwidth',
                 'layout' => 'g-newsletter-stack-compact',
-                'style' => 'g-newsletter-square',
-                'class' => '',
-                'title' => '',
-                'headtext' => '',
-                'sidetext' => '',
-                'inputboxtext' => '',
-                'buttonicon' => '',
-                'buttontext' => '',
-                'uri' => '',
-                'buttonclass' => ''
+                'style' => 'g-newsletter-square'
             ],
             'pricingtable' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'columns' => 'g-pricingtable-3-col'
             ],
             'simplebooking' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'checkin' => 'Check in date',
                 'checkin_placeholder' => 'Select Date',
                 'checkout' => 'Check out date',
                 'checkout_placeholder' => 'Select Date',
                 'adults' => 'Adults',
-                'adults_min' => '1',
-                'adults_max' => '9',
+                'adults_min' => 1,
+                'adults_max' => 9,
                 'children' => 'Children',
-                'children_min' => '0',
-                'children_max' => '9',
+                'children_min' => 0,
+                'children_max' => 9,
                 'button' => 'Submit',
                 'name' => 'Name',
                 'name_placeholder' => 'Please enter your name',
                 'email' => 'Email',
                 'email_placeholder' => 'Please enter your email',
                 'thankyou' => 'Thank you for making your reservation. We will be contacting you soon about the details.',
-                'error' => 'Failed to send your reservation. Please try later or contact administrator.',
-                'token' => '',
-                'class' => '',
-                'items' => [
-                    
-                ]
+                'error' => 'Failed to send your reservation. Please try later or contact administrator.'
             ],
             'simplecontent' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1'
+                'enabled' => true
             ],
             'simplecounter' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
-                'month' => '0',
-                'class' => '',
-                'title' => '',
-                'desc' => '',
-                'date' => '',
-                'year' => '',
-                'daytext' => '',
-                'daystext' => '',
-                'hourtext' => '',
-                'hourstext' => '',
-                'minutetext' => '',
-                'minutestext' => '',
-                'secondtext' => '',
-                'secondstext' => ''
+                'enabled' => true,
+                'month' => 0
             ],
             'simplemenu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1',
-                'cols' => '0',
-                'title' => '',
-                'class' => '',
-                'items' => [
-                    
-                ]
+                'enabled' => true,
+                'cols' => 0
             ],
             'simpleweather' => [
                 'caching' => [
@@ -445,7 +280,7 @@ return [
                         'filter' => '0'
                     ]
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'twig' => '0',
                 'filter' => '0'
             ],
@@ -466,20 +301,20 @@ return [
                 'caching' => [
                     'type' => 'menu'
                 ],
-                'enabled' => '1',
+                'enabled' => true,
                 'menu' => '',
                 'base' => '/',
-                'startLevel' => '1',
-                'maxLevels' => '0',
-                'renderTitles' => '0',
-                'hoverExpand' => '1',
-                'mobileTarget' => '0'
+                'startLevel' => 1,
+                'maxLevels' => 0,
+                'renderTitles' => 0,
+                'hoverExpand' => 1,
+                'mobileTarget' => 0
             ],
             'mobile-menu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1'
+                'enabled' => true
             ],
             'social' => [
                 'caching' => [
@@ -511,7 +346,7 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => '1'
+                'enabled' => true
             ],
             'totop' => [
                 'caching' => [
@@ -525,9 +360,9 @@ return [
                 'content' => 'To Top'
             ],
             'owlcarousel' => [
-                'enabled' => '1',
+                'enabled' => true,
                 'presets' => 'disabled',
-                'displayitems' => '1',
+                'displayitems' => 1,
                 'layout' => 'standard',
                 'width' => 'g-owlcarousel-fullwidth',
                 'animateIn' => 'fadeIn',
@@ -553,10 +388,10 @@ return [
                 'enabled' => true
             ],
             'content' => [
-                'enabled' => '1'
+                'enabled' => true
             ],
             'contentarray' => [
-                'enabled' => '1',
+                'enabled' => true,
                 'article' => [
                     'limit' => [
                         'total' => 2,
@@ -574,40 +409,30 @@ return [
                             'formatting' => 'text'
                         ],
                         'title' => [
-                            'enabled' => 'show',
-                            'limit' => ''
+                            'enabled' => 'show'
                         ],
                         'date' => [
                             'enabled' => 'published',
                             'format' => 'l, F d, Y'
                         ],
                         'read_more' => [
-                            'enabled' => 'show',
-                            'label' => '',
-                            'css' => ''
+                            'enabled' => 'show'
                         ],
                         'author' => [
                             'enabled' => 'show'
                         ],
                         'category' => [
-                            'enabled' => 'show',
-                            'route' => ''
+                            'enabled' => 'link'
                         ]
                     ],
                     'sort' => [
                         'orderby' => 'default',
                         'ordering' => 'asc'
                     ]
-                ],
-                'css' => [
-                    'class' => ''
-                ],
-                'extra' => [
-                    
                 ]
             ],
             'date' => [
-                'enabled' => '1',
+                'enabled' => true,
                 'css' => [
                     'class' => 'date'
                 ],
@@ -643,17 +468,16 @@ return [
                 'enabled' => true
             ],
             'login' => [
-                'enabled' => '1'
+                'enabled' => true
             ],
             'messages' => [
-                'enabled' => '1'
+                'enabled' => true
             ],
             'position' => [
-                'enabled' => '1',
-                'chrome' => ''
+                'enabled' => true
             ],
             'search' => [
-                'enabled' => '1'
+                'enabled' => true
             ]
         ],
         'styles' => [
@@ -890,8 +714,7 @@ return [
                             'javascript' => [
                                 
                             ]
-                        ],
-                        'id' => 'assets-2361'
+                        ]
                     ],
                     1 => [
                         'type' => 'frameworks',
@@ -910,8 +733,7 @@ return [
                                 'enabled' => '1',
                                 'more' => '0'
                             ]
-                        ],
-                        'id' => 'frameworks-4662'
+                        ]
                     ]
                 ]
             ]
@@ -2246,14 +2068,6 @@ return [
                     ]
                 ]
             ]
-        ],
-        'menu' => [
-            'enabled' => '1',
-            'base' => '/',
-            'menu' => 'mainmenu',
-            'startLevel' => '1',
-            'endLevel' => '0',
-            'mobileTarget' => '0'
         ]
     ]
 ];
