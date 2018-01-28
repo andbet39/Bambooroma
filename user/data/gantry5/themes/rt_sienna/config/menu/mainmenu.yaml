@@ -14,11 +14,15 @@ items:
     enabled: true
     anchor_class: ''
   about-us:
-    enabled: true
-    anchor_class: ''
+    enabled: '0'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
   contact:
-    enabled: true
-    anchor_class: ''
+    enabled: '0'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
   styles/__particle:
     type: particle
     particle: custom

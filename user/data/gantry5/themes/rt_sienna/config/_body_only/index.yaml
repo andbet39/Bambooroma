@@ -1,16 +1,16 @@
 name: _body_only
-timestamp: 1517042138
+timestamp: 1517148999
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/body-only.png'
   name: _body_only
-  timestamp: 1470727692
+  timestamp: 1517042143
 positions: {  }
 sections:
   body: Body
 particles:
   messages:
-    system-messages-5826: 'System Messages'
+    system-messages-1441: 'System Messages'
   content:
-    system-content-3118: 'Page Content'
+    system-content-5840: 'Page Content'
 inherit: {  }

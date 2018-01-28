@@ -2,7 +2,7 @@ version: 2
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
-  timestamp: 1466236168
+  timestamp: 1517042143
 layout:
   /container-top/:
     -
@@ -30,7 +30,10 @@ layout:
       -
         'headerleft 10': {  }
       -
-        'headermain 80': {  }
+        'headermain 80':
+          -
+            - 'position-position-5067 70'
+            - 'position-position-9651 30'
       -
         'headerright 10': {  }
   /container-above/:
@@ -40,7 +43,7 @@ layout:
       -
         'abovemain 80':
           -
-            - simplecontent-3044
+            - position-position-3264
       -
         'aboveright 10': {  }
   /container-main/:
@@ -52,7 +55,9 @@ layout:
       -
         'mainbar 80':
           -
-            - blockcontent-2968
+            - position-position-8547
+          -
+            - system-content-1120
       -
         'aside 10':
           -
@@ -64,9 +69,9 @@ layout:
       -
         'showcasemain 80':
           -
-            - imagegrid-2721
-          -
-            - simplecontent-9280
+            - 'position-position-9435 33.3'
+            - 'position-position-8620 33.3'
+            - 'position-position-3083 33.3'
       -
         'showcaseright 10': {  }
   /container-slideshow/:
@@ -74,7 +79,9 @@ layout:
       -
         'slideshowleft 10': {  }
       -
-        'slideshowmain 80': {  }
+        'slideshowmain 80':
+          -
+            - position-position-6661
       -
         'slideshowright 10': {  }
   /container-utility/:
@@ -82,7 +89,9 @@ layout:
       -
         'utilityleft 10': {  }
       -
-        'utilitymain 80': {  }
+        'utilitymain 80':
+          -
+            - position-position-5239
       -
         'utilityright 10': {  }
   /container-feature/:
@@ -90,7 +99,9 @@ layout:
       -
         'featureleft 10': {  }
       -
-        'featuremain 80': {  }
+        'featuremain 80':
+          -
+            - position-position-7980
       -
         'featureright 10': {  }
   /container-expanded/:
@@ -98,7 +109,10 @@ layout:
       -
         'expandedleft 10': {  }
       -
-        'expandedmain 80': {  }
+        'expandedmain 80':
+          -
+            - 'position-position-8124 50'
+            - 'position-position-8346 50'
       -
         'expandedright 10': {  }
   /container-extension/:
@@ -106,7 +120,9 @@ layout:
       -
         'extensionleft 10': {  }
       -
-        'extensionmain 80': {  }
+        'extensionmain 80':
+          -
+            - position-position-4800
       -
         'extensionright 10': {  }
   /container-bottom/:
@@ -114,7 +130,9 @@ layout:
       -
         'bottomleft 10': {  }
       -
-        'bottommain 80': {  }
+        'bottommain 80':
+          -
+            - position-position-3343
       -
         'bottomright 10': {  }
   /container-footer/:
@@ -130,7 +148,23 @@ layout:
       -
         'copyrightleft 10': {  }
       -
-        'copyrightmain 80': {  }
+        'copyrightmain 80':
+          -
+            - 'position-position-2316 33.3'
+            - 'position-position-5872 33.3'
+            - 'position-position-5432 33.3'
+          -
+            - spacer-3620
+          -
+            - 'position-position-6325 17'
+            - 'position-position-9467 17'
+            - 'position-position-3508 17'
+            - 'position-position-9427 17'
+            - 'position-position-9799 32'
+          -
+            - spacer-4015
+          -
+            - copyright-5748
       -
         'copyrightright 10': {  }
   offcanvas:
@@ -204,7 +238,6 @@ structure:
     attributes:
       class: ''
     block:
-      id: block-7097
       class: g-side-column
       fixed: '1'
   headermain:
@@ -542,13 +575,10 @@ structure:
   copyrightmain:
     type: section
     title: 'Copyright Main'
-    inherit:
-      outline: bamboo_en
-      include:
-        - attributes
-        - block
-        - children
+    attributes:
+      class: ''
     block:
+      class: g-middle-column
       fixed: '1'
   copyrightright:
     type: section
@@ -566,185 +596,124 @@ structure:
       extra: {  }
 content:
   menu-7876:
-    inherit:
-      outline: bamboo_en
-      particle: menu-7876
-      include:
-        - attributes
-        - block
-  simplecontent-3044:
-    title: 'Room header'
-    attributes:
-      class: center
-      title: ''
-      items:
-        -
-          layout: header
-          created_date: ''
-          content_title: '<h1>Bamboo B&B Rooms </h1>'
-          author: ''
-          leading_content: 'The rooms of Bamboo B&B Roma will make you feel at home: they are spacious and stylish.'
-          main_content: ''
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'Bamboo Rooms'
-  position-position-8538:
-    title: Sidebar
-    attributes:
-      key: sidebar
-  blockcontent-2968:
-    title: 'What we furnish'
-    attributes:
-      class: 'center g-blockcontent-spacing'
-      title: ''
-      icon: ''
-      image: ''
-      headline: ''
-      description: 'Rooms cover from 10 square meters upwards, with  double beds and standard single beds. They all have a <strong>private bathroom</strong> and a <strong>balcony</strong> or <strong>terrace</strong>.'
-      linktext: ''
-      link: ''
-      linkclass: ''
-      linktarget: _self
-      subcontents:
-        -
-          name: 'Family Room'
-          icon: ''
-          img: 'gantry-media://suite_800.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: ''
-          description: "The <strong>Bamboo B&amp;B Family room</strong>.\_Spacious and bright family room, which can accommodate <strong>up to four guests</strong>. Large city\_\_view, with a private balcony for relaxing moments outdoors. Equipped with all comforts typical of <strong>Bamboo Bed and breakfast</strong> , private bathroom, LCD television, air conditioning and large wardrobe."
-          class: nopaddingall
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: Quad
-        -
-          name: 'Single Room'
-          icon: ''
-          img: 'gantry-media://single.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: ''
-          description: "Bright and cozy single room with <strong>ensuite bathroom</strong> and <strong>private balcony</strong>. As all other\_rooms at the<strong> Bamboo Roma B&amp;B</strong> it is equipped with air conditioning, LCD television and a large\_space for your\_luggage. The ideal size for <strong>a business trip</strong>, enjoying the <strong>relaxation</strong> and <strong>tranquility</strong> of the guest house."
-          class: nopaddingall
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: Single
-        -
-          name: 'Double Room'
-          icon: ''
-          img: 'gantry-media://double_800x600.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: ''
-          description: "Bright and cozy single room with <strong>ensuite bathroom</strong> and <strong>private balcony</strong>. As all other\_rooms at the<strong> Bamboo Roma B&amp;B</strong> it is equipped with air conditioning, LCD television and a large\_space for your\_luggage. The ideal size for <strong>a business trip</strong>, enjoying the <strong>relaxation</strong> and <strong>tranquility</strong> of the guest house."
-          class: nopaddingall
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: Double
-  position-position-8807:
-    title: Aside
-    attributes:
-      key: aside
-  imagegrid-2721:
-    title: 'Image Grid'
-    attributes:
-      class: ''
-      title: ''
-      desc: ''
-      cols: g-imagegrid-4cols
-      layout: g-imagegrid-standard
-      album: 'Room Gallery'
-      imagegriditems:
-        -
-          image: 'gantry-media://room_quad.jpg'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room1.jpg'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room4.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room5.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room3.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room_8.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room6.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room7.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
     block:
-      class: fp-slideshow-imagegrid
-  simplecontent-9280:
-    title: 'Simple Content'
+      variations: align-right
+  position-position-5067:
+    title: 'Header A'
     attributes:
-      class: ''
-      title: ''
-      items:
-        -
-          layout: standard
-          created_date: ''
-          content_title: ''
-          author: ''
-          leading_content: ''
-          main_content: 'Also, the Bamboo B&B is provided with a <strong>relax area</strong> where you''ll be able to spend your free time flipping through books and Rome tourist guides.'
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'New item'
-        -
-          layout: standard
-          created_date: ''
-          content_title: ''
-          author: ''
-          leading_content: ''
-          main_content: 'The five rooms of Bed &amp; Breakfast Bamboo are each dedicated to an animal: <strong>Elephant, Lemur, Panda, Frog, Tiger</strong>.'
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'New item'
-        -
-          layout: standard
-          created_date: ''
-          content_title: ''
-          author: ''
-          leading_content: ''
-          main_content: "Even if you're traveling alone for pleasure or business, you'll be able to sleep in the comfortable big bed of the Frog room. For those traveling with the company of family or friends the other rooms will accomodate up to <strong>4 people</strong>.\n"
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'New item'
+      key: header-a
+  position-position-9651:
+    title: 'Header B'
+    attributes:
+      key: header-b
+    block:
+      class: 'nomarginleft nomarginbottom'
+      variations: nopaddingall
+  position-position-3264:
+    title: 'Above A'
+    attributes:
+      key: above-a
+    block:
+      variations: center
+      class: nomarginbottom
+  position-position-8538:
+    title: 'Sidebar A'
+    attributes:
+      key: sidebar-a
+  position-position-8547:
+    title: 'MainBar A'
+    attributes:
+      key: mainbar-a
+  position-position-8807:
+    title: 'Aside A'
+    attributes:
+      key: aside-a
+  position-position-9435:
+    title: 'Showcase A'
+    attributes:
+      key: showcase-a
+    block:
+      variations: box5
+  position-position-8620:
+    title: 'Showcase B'
+    attributes:
+      key: showcase-b
+  position-position-3083:
+    title: 'Showcase C'
+    attributes:
+      key: showcase-c
+  position-position-6661:
+    title: 'Slideshow A'
+    attributes:
+      key: slideshow-a
+  position-position-5239:
+    title: 'Utility A'
+    attributes:
+      key: utility-a
+  position-position-7980:
+    title: 'Feature A'
+    attributes:
+      key: feature-a
+  position-position-8124:
+    title: 'Expanded A'
+    attributes:
+      key: expanded-a
+  position-position-8346:
+    title: 'Expanded B'
+    attributes:
+      key: expanded-b
+  position-position-4800:
+    title: 'Extension A'
+    attributes:
+      key: extension-a
+  position-position-3343:
+    title: 'Bottom A'
+    attributes:
+      key: bottom-a
+  position-position-2316:
+    title: 'Copyright A'
+    attributes:
+      key: copyright-a
+    block:
+      class: g-simpleweather-footer
+  position-position-5872:
+    title: 'Copyright B'
+    attributes:
+      key: copyright-b
+    block:
+      class: g-newsletter-footer
+  position-position-5432:
+    title: 'Copyright C'
+    attributes:
+      key: copyright-c
+    block:
+      class: g-social-footer
+  spacer-3620:
+    block:
+      class: g-bordered-spacer
+  position-position-6325:
+    title: 'Copyright D'
+    attributes:
+      key: copyright-d
+  position-position-9467:
+    title: 'Copyright E'
+    attributes:
+      key: copyright-e
+  position-position-3508:
+    title: 'Copyright F'
+    attributes:
+      key: copyright-f
+  position-position-9427:
+    title: 'Copyright G'
+    attributes:
+      key: copyright-g
+  position-position-9799:
+    title: 'Copyright H'
+    attributes:
+      key: copyright-h
+  spacer-4015:
+    block:
+      class: g-bordered-spacer
+  copyright-5748:
+    block:
+      variations: center

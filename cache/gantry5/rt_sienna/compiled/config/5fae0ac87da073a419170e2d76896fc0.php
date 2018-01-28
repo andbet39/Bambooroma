@@ -1,10 +1,14 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1517148349,
-    'checksum' => '935ea276ac4c398bc68a93ca3f0d0a79',
+    'timestamp' => 1517153487,
+    'checksum' => '05d593e83ffa95d2a12c5e52c61b9ef6',
     'files' => [
         0 => [
+            'bambooit' => [
+                'file' => 'user/data/gantry5/themes/rt_sienna/config/bambooit/assignments.yaml',
+                'modified' => 1517150144
+            ],
             'bamboo_en' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/bamboo_en/assignments.yaml',
                 'modified' => 1517047229
@@ -20,10 +24,29 @@ return [
             'rooms_en' => [
                 'file' => 'user/data/gantry5/themes/rt_sienna/config/rooms_en/assignments.yaml',
                 'modified' => 1517073796
+            ],
+            'room_it' => [
+                'file' => 'user/data/gantry5/themes/rt_sienna/config/room_it/assignments.yaml',
+                'modified' => 1517153428
             ]
         ]
     ],
     'data' => [
+        'bambooit' => [
+            'page' => [
+                0 => [
+                    'home' => true
+                ]
+            ],
+            'language' => [
+                0 => [
+                    'it' => true
+                ]
+            ],
+            'type' => [
+                
+            ]
+        ],
         'bamboo_en' => [
             'page' => [
                 0 => [
@@ -79,6 +102,21 @@ return [
             'language' => [
                 0 => [
                     'en' => true
+                ]
+            ],
+            'type' => [
+                
+            ]
+        ],
+        'room_it' => [
+            'page' => [
+                0 => [
+                    'rooms' => true
+                ]
+            ],
+            'language' => [
+                0 => [
+                    'it' => true
                 ]
             ],
             'type' => [

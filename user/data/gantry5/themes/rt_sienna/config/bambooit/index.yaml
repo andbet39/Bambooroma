@@ -1,30 +1,26 @@
-name: rooms_en
-timestamp: 1517149038
+name: bambooit
+timestamp: 1517153303
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
-  name: default
-  timestamp: 1466236168
-positions:
-  sidebar: Sidebar
-  aside: Aside
+  name: home_-_particles
+  timestamp: 1465972737
+positions: {  }
 sections:
   topleft: 'Top Left'
   topright: 'Top Right'
   headerleft: 'Header Left'
   headerright: 'Header Right'
-  aboveleft: 'Above Left'
-  aboveright: 'Above Right'
-  sidebar: Sidebar
-  aside: Aside
-  showcaseleft: 'Showcase Left'
-  showcaseright: 'Showcase Right'
   slideshowleft: 'Slideshow Left'
   slideshowright: 'Slideshow Right'
+  aboveleft: 'Above Left'
+  aboveright: 'Above Right'
   utilityleft: 'Utility Left'
   utilityright: 'Utility Right'
   featureleft: 'Feature Left'
   featureright: 'Feature Right'
+  sidebar: Sidebar
+  aside: Aside
   expandedleft: 'Expanded Left'
   expandedright: 'Expanded Right'
   extensionleft: 'Extension Left'
@@ -34,14 +30,14 @@ sections:
   footerleft: 'Footer Left'
   footerright: 'Footer Right'
   copyrightleft: 'Copyright Left'
-  copyrightright: 'Copyright Right'
+  copyrightright: 'Copyright Left'
   topmain: 'Top Main'
   navigationleft: 'Navigation Left'
   navigationmain: 'Navigation Main'
   navigationright: 'Navigation Right'
-  abovemain: 'Above Main'
   showcasemain: 'Showcase Main'
   slideshowmain: 'Slideshow Main'
+  abovemain: 'Above Main'
   utilitymain: 'Utility Main'
   featuremain: 'Feature Main'
   expandedmain: 'Expanded Main'
@@ -59,40 +55,37 @@ particles:
     logo-5992: Logo
   menu:
     menu-7876: Menu
-  simplecontent:
-    simplecontent-3044: 'Room header'
-    simplecontent-9280: 'Simple Content'
-    simplecontent-2177: 'Simple Content'
-  position:
-    position-position-8538: Sidebar
-    position-position-8807: Aside
-  blockcontent:
-    blockcontent-2968: 'What we furnish'
-  imagegrid:
-    imagegrid-2721: 'Image Grid'
-  simpleweather:
-    simpleweather-4209: 'Simple Weather'
-  newsletter:
-    newsletter-7827: Newsletter
-  social:
-    social-7082: Social
+  owlcarousel:
+    owlcarousel-5908: 'Owl Carousel'
+    owlcarousel-1641: 'Owl Carousel'
   spacer:
-    spacer-2916: Spacer
-    spacer-4112: Spacer
-    spacer-2070: Spacer
+    spacer-3607: Spacer
+    spacer-9704: Spacer
+    spacer-3620: Spacer
+    spacer-4143: Spacer
+    spacer-4015: Spacer
+  bambooform:
+    bambooform-2806: 'Bamboo Form'
+  imagegrid:
+    imagegrid-8152: 'Image Grid'
+    imagegrid-2662: 'Image Grid'
+  simplecontent:
+    simplecontent-3417: 'Simple Content'
+    simplecontent-3902: 'Simple Content'
+    simplecontent-6137: 'Simple Content'
+    simplecontent-3806: 'Simple Content'
+  simplemenu:
+    simplemenu-8939: 'Simple Menu'
+  bamboobooking:
+    bamboobooking-2667: 'Bamboo booking'
+  simpleweather:
+    simpleweather-6240: 'Simple Weather'
+  newsletter:
+    newsletter-6777: Newsletter
+  social:
+    social-2831: Social
   copyright:
-    copyright-3600: Copyright
+    copyright-5748: Copyright
   mobile-menu:
-    mobile-menu-7951: Mobile-menu
-inherit:
-  bamboo_en:
-    menu-7876: menu-7876
-    copyrightmain: copyrightmain
-    simpleweather-4209: simpleweather-6240
-    newsletter-7827: newsletter-6777
-    social-7082: social-2831
-    spacer-2916: spacer-3620
-    simplecontent-2177: simplecontent-3806
-    spacer-4112: spacer-4143
-    spacer-2070: spacer-4015
-    copyright-3600: copyright-5748
+    mobile-menu-2702: Mobile-menu
+inherit: {  }

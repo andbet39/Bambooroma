@@ -628,7 +628,7 @@ content:
         -
           image: 'gantry-media://bamboo1.jpg'
           icon: ''
-          title: ''
+          title: 'Sleep in Rome<br> <strong>Two steps from</strong> Trastevere <br> <strong>and the</strong> Vatican <strong>City</strong>'
           subtitle: ''
           author: ''
           authorimage: ''
@@ -641,7 +641,7 @@ content:
         -
           image: 'gantry-media://home.jpg'
           icon: ''
-          title: 'Sleep in Rome <br> Two steps from Vaticatican city'
+          title: 'Sleep in Rome<br> <strong>Two steps from</strong> Trastevere <br> <strong>and the</strong> Vatican <strong>City</strong>'
           subtitle: ''
           author: ''
           authorimage: ''

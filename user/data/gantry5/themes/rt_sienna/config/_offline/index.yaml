@@ -1,10 +1,10 @@
 name: _offline
-timestamp: 1517042138
+timestamp: 1517148999
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: _offline
-  timestamp: 1470727692
+  timestamp: 1517042143
 positions: {  }
 sections:
   topleft: 'Top Left'

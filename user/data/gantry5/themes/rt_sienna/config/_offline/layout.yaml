@@ -1,8 +1,8 @@
 version: 2
 preset:
   image: 'gantry-admin://images/layouts/default.png'
-  name: default
-  timestamp: 1466236168
+  name: _offline
+  timestamp: 1517042143
 layout:
   /container-top/:
     -
@@ -11,7 +11,7 @@ layout:
       -
         'topmain 80':
           -
-            - system-messages-9828
+            - system-messages-5196
       -
         'topright 10': {  }
   /container-navigation/:
@@ -33,40 +33,12 @@ layout:
         'headermain 80': {  }
       -
         'headerright 10': {  }
-  /container-above/:
-    -
-      -
-        'aboveleft 10': {  }
-      -
-        'abovemain 80':
-          -
-            - simplecontent-3044
-      -
-        'aboveright 10': {  }
-  /container-main/:
-    -
-      -
-        'sidebar 10':
-          -
-            - position-position-8538
-      -
-        'mainbar 80':
-          -
-            - blockcontent-2968
-      -
-        'aside 10':
-          -
-            - position-position-8807
   /container-showcase/:
     -
       -
         'showcaseleft 10': {  }
       -
-        'showcasemain 80':
-          -
-            - imagegrid-2721
-          -
-            - simplecontent-9280
+        'showcasemain 80': {  }
       -
         'showcaseright 10': {  }
   /container-slideshow/:
@@ -77,6 +49,18 @@ layout:
         'slideshowmain 80': {  }
       -
         'slideshowright 10': {  }
+  /container-above/:
+    -
+      -
+        'aboveleft 10': {  }
+      -
+        'abovemain 80':
+          -
+            - simplecontent-3880
+          -
+            - system-content-1047
+      -
+        'aboveright 10': {  }
   /container-utility/:
     -
       -
@@ -93,6 +77,14 @@ layout:
         'featuremain 80': {  }
       -
         'featureright 10': {  }
+  /container-main/:
+    -
+      -
+        'sidebar 10': {  }
+      -
+        'mainbar 80': {  }
+      -
+        'aside 10': {  }
   /container-expanded/:
     -
       -
@@ -133,9 +125,7 @@ layout:
         'copyrightmain 80': {  }
       -
         'copyrightright 10': {  }
-  offcanvas:
-    -
-      - mobile-menu-7951
+  offcanvas: {  }
 structure:
   topleft:
     type: section
@@ -204,7 +194,6 @@ structure:
     attributes:
       class: ''
     block:
-      id: block-7097
       class: g-side-column
       fixed: '1'
   headermain:
@@ -230,57 +219,6 @@ structure:
       boxed: '3'
       class: ''
       extra: {  }
-  aboveleft:
-    type: section
-    subtype: aside
-    title: 'Above Left'
-    attributes:
-      class: ''
-    block:
-      class: g-side-column
-      fixed: '1'
-  abovemain:
-    type: section
-    title: 'Above Main'
-    attributes:
-      class: ''
-    block:
-      class: g-middle-column
-      fixed: '1'
-  aboveright:
-    type: section
-    subtype: aside
-    title: 'Above Right'
-    attributes:
-      class: ''
-    block:
-      class: g-side-column
-      fixed: '1'
-  container-above:
-    attributes:
-      boxed: '3'
-      class: g-main-offset
-      extra: {  }
-  sidebar:
-    type: section
-    subtype: aside
-    block:
-      class: g-side-column
-      fixed: '1'
-  mainbar:
-    type: section
-    subtype: main
-    title: Main
-    block:
-      class: g-middle-column
-      fixed: '1'
-  aside:
-    block:
-      class: g-side-column
-      fixed: '1'
-  container-main:
-    attributes:
-      boxed: '3'
   showcaseleft:
     type: section
     subtype: aside
@@ -339,6 +277,37 @@ structure:
       class: g-side-column
       fixed: '1'
   container-slideshow:
+    attributes:
+      boxed: '3'
+      class: ''
+      extra: {  }
+  aboveleft:
+    type: section
+    subtype: aside
+    title: 'Above Left'
+    attributes:
+      class: ''
+    block:
+      class: g-side-column
+      fixed: '1'
+  abovemain:
+    type: section
+    title: 'Above Main'
+    attributes:
+      class: ''
+    block:
+      class: g-middle-column
+      fixed: '1'
+  aboveright:
+    type: section
+    subtype: aside
+    title: 'Above Right'
+    attributes:
+      class: ''
+    block:
+      class: g-side-column
+      fixed: '1'
+  container-above:
     attributes:
       boxed: '3'
       class: ''
@@ -405,6 +374,26 @@ structure:
       boxed: '3'
       class: ''
       extra: {  }
+  sidebar:
+    type: section
+    subtype: aside
+    block:
+      class: g-side-column
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+    title: Main
+    block:
+      class: g-middle-column
+      fixed: '1'
+  aside:
+    block:
+      class: g-side-column
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: '3'
   expandedleft:
     type: section
     subtype: aside
@@ -542,18 +531,15 @@ structure:
   copyrightmain:
     type: section
     title: 'Copyright Main'
-    inherit:
-      outline: bamboo_en
-      include:
-        - attributes
-        - block
-        - children
+    attributes:
+      class: ''
     block:
+      class: g-middle-column
       fixed: '1'
   copyrightright:
     type: section
     subtype: aside
-    title: 'Copyright Right'
+    title: 'Copyright Left'
     attributes:
       class: ''
     block:
@@ -565,186 +551,17 @@ structure:
       class: fp-copyright
       extra: {  }
 content:
-  menu-7876:
-    inherit:
-      outline: bamboo_en
-      particle: menu-7876
-      include:
-        - attributes
-        - block
-  simplecontent-3044:
-    title: 'Room header'
-    attributes:
-      class: center
-      title: ''
-      items:
-        -
-          layout: header
-          created_date: ''
-          content_title: '<h1>Bamboo B&B Rooms </h1>'
-          author: ''
-          leading_content: 'The rooms of Bamboo B&B Roma will make you feel at home: they are spacious and stylish.'
-          main_content: ''
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'Bamboo Rooms'
-  position-position-8538:
-    title: Sidebar
-    attributes:
-      key: sidebar
-  blockcontent-2968:
-    title: 'What we furnish'
-    attributes:
-      class: 'center g-blockcontent-spacing'
-      title: ''
-      icon: ''
-      image: ''
-      headline: ''
-      description: 'Rooms cover from 10 square meters upwards, with  double beds and standard single beds. They all have a <strong>private bathroom</strong> and a <strong>balcony</strong> or <strong>terrace</strong>.'
-      linktext: ''
-      link: ''
-      linkclass: ''
-      linktarget: _self
-      subcontents:
-        -
-          name: 'Family Room'
-          icon: ''
-          img: 'gantry-media://suite_800.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: ''
-          description: "The <strong>Bamboo B&amp;B Family room</strong>.\_Spacious and bright family room, which can accommodate <strong>up to four guests</strong>. Large city\_\_view, with a private balcony for relaxing moments outdoors. Equipped with all comforts typical of <strong>Bamboo Bed and breakfast</strong> , private bathroom, LCD television, air conditioning and large wardrobe."
-          class: nopaddingall
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: Quad
-        -
-          name: 'Single Room'
-          icon: ''
-          img: 'gantry-media://single.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: ''
-          description: "Bright and cozy single room with <strong>ensuite bathroom</strong> and <strong>private balcony</strong>. As all other\_rooms at the<strong> Bamboo Roma B&amp;B</strong> it is equipped with air conditioning, LCD television and a large\_space for your\_luggage. The ideal size for <strong>a business trip</strong>, enjoying the <strong>relaxation</strong> and <strong>tranquility</strong> of the guest house."
-          class: nopaddingall
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: Single
-        -
-          name: 'Double Room'
-          icon: ''
-          img: 'gantry-media://double_800x600.jpg'
-          rokboximage: ''
-          rokboxcaption: ''
-          subtitle: ''
-          description: "Bright and cozy single room with <strong>ensuite bathroom</strong> and <strong>private balcony</strong>. As all other\_rooms at the<strong> Bamboo Roma B&amp;B</strong> it is equipped with air conditioning, LCD television and a large\_space for your\_luggage. The ideal size for <strong>a business trip</strong>, enjoying the <strong>relaxation</strong> and <strong>tranquility</strong> of the guest house."
-          class: nopaddingall
-          button: ''
-          buttonlink: ''
-          buttonclass: ''
-          buttontarget: _self
-          title: Double
-  position-position-8807:
-    title: Aside
-    attributes:
-      key: aside
-  imagegrid-2721:
-    title: 'Image Grid'
-    attributes:
-      class: ''
-      title: ''
-      desc: ''
-      cols: g-imagegrid-4cols
-      layout: g-imagegrid-standard
-      album: 'Room Gallery'
-      imagegriditems:
-        -
-          image: 'gantry-media://room_quad.jpg'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room1.jpg'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room4.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room5.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room3.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room_8.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room6.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
-        -
-          image: 'gantry-media://room7.JPG'
-          caption: ''
-          icon: 'fa fa-search'
-          title: 'New item'
+  logo-5992:
     block:
-      class: fp-slideshow-imagegrid
-  simplecontent-9280:
+      variations: align-left
+  menu-7876:
+    block:
+      variations: align-right
+  simplecontent-3880:
     title: 'Simple Content'
     attributes:
-      class: ''
-      title: ''
-      items:
-        -
-          layout: standard
-          created_date: ''
-          content_title: ''
-          author: ''
-          leading_content: ''
-          main_content: 'Also, the Bamboo B&B is provided with a <strong>relax area</strong> where you''ll be able to spend your free time flipping through books and Rome tourist guides.'
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'New item'
-        -
-          layout: standard
-          created_date: ''
-          content_title: ''
-          author: ''
-          leading_content: ''
-          main_content: 'The five rooms of Bed &amp; Breakfast Bamboo are each dedicated to an animal: <strong>Elephant, Lemur, Panda, Frog, Tiger</strong>.'
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'New item'
-        -
-          layout: standard
-          created_date: ''
-          content_title: ''
-          author: ''
-          leading_content: ''
-          main_content: "Even if you're traveling alone for pleasure or business, you'll be able to sleep in the comfortable big bed of the Frog room. For those traveling with the company of family or friends the other rooms will accomodate up to <strong>4 people</strong>.\n"
-          readmore_label: ''
-          readmore_link: ''
-          readmore_class: ''
-          readmore_target: _self
-          title: 'New item'
+      class: center
+      title: '<h1>We''re offline...</h1>'
+  system-content-1047:
+    block:
+      class: center

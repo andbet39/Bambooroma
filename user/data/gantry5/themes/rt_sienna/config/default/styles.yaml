@@ -7,10 +7,10 @@ accent:
   color-1: '#58bd91'
   color-2: '#33a58c'
 font:
-  family-default: 'muli, sans-serif, Tahoma, Geneva, Arial'
-  family-title: 'muli, sans-serif, Tahoma, Geneva, Arial'
-  family-promo: playfairdisplay
-  family-subpromo: 'playfairdisplay italic'
+  family-default: 'family=Roboto:300,300italic,400,400italic'
+  family-title: 'family=Roboto:100,700,700italic,400,400italic'
+  family-promo: 'family=Roboto+Condensed:300,700italic,400,400italic'
+  family-subpromo: 'family=Roboto:300italic'
   family-weather: weather
 top:
   background: '#58bd91'

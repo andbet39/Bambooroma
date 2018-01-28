@@ -581,9 +581,9 @@ content:
         -
           layout: header
           created_date: ''
-          content_title: '<h1>Bamboo B&B Rooms </h1>'
+          content_title: '<h1>Le camere di Bamboo B&B Roma</h1>'
           author: ''
-          leading_content: 'The rooms of Bamboo B&B Roma will make you feel at home: they are spacious and stylish.'
+          leading_content: 'Le camere di Bamboo B&B Roma vi faranno sentiere come a casa: sono spaziose e arredate con stile.'
           main_content: ''
           readmore_label: ''
           readmore_link: ''
@@ -602,7 +602,7 @@ content:
       icon: ''
       image: ''
       headline: ''
-      description: 'Rooms cover from 10 square meters upwards, with  double beds and standard single beds. They all have a <strong>private bathroom</strong> and a <strong>balcony</strong> or <strong>terrace</strong>.'
+      description: 'Abbiamo camere dai 10mt in su, con un letto matrimoniale standard e un letto singolo. Tutte le camere hanno un <strong>bagno privato</strong> con doccia e un <strong>balcone</strong> o <strong> la terrazza</strong>.'
       linktext: ''
       link: ''
       linkclass: ''
@@ -615,7 +615,7 @@ content:
           rokboximage: ''
           rokboxcaption: ''
           subtitle: ''
-          description: "The <strong>Bamboo B&amp;B Family room</strong>.\_Spacious and bright family room, which can accommodate <strong>up to four guests</strong>. Large city\_\_view, with a private balcony for relaxing moments outdoors. Equipped with all comforts typical of <strong>Bamboo Bed and breakfast</strong> , private bathroom, LCD television, air conditioning and large wardrobe."
+          description: 'La suite del Bamboo B&B Roma. Spaziosa e luminosa camera famigliare, in grado di ospitare fino a quattro persone. Ampio affaccio esterno, con balcone privato per i vostri momenti di relax all’aria aperta. Dotata di tutti comfort tipici della struttura Bamboo B&B, bagno privato, televisione lcd, climatizzatore ed ampio guardaroba.'
           class: nopaddingall
           button: ''
           buttonlink: ''
@@ -629,7 +629,7 @@ content:
           rokboximage: ''
           rokboxcaption: ''
           subtitle: ''
-          description: "Bright and cozy single room with <strong>ensuite bathroom</strong> and <strong>private balcony</strong>. As all other\_rooms at the<strong> Bamboo Roma B&amp;B</strong> it is equipped with air conditioning, LCD television and a large\_space for your\_luggage. The ideal size for <strong>a business trip</strong>, enjoying the <strong>relaxation</strong> and <strong>tranquility</strong> of the guest house."
+          description: 'Luminosa ed accogliente stanza singola, con bagno in camera e balcone privato. Come tutto le stanze presso il Bamboo B&B Roma è dotata di climatizzatore, televisione lcd ed ampio spazio per i propri bagagli. La dimensione ideale per un soggiorno di lavoro, godendo del Relax e della tranquillità della struttura.'
           class: nopaddingall
           button: ''
           buttonlink: ''
@@ -643,7 +643,7 @@ content:
           rokboximage: ''
           rokboxcaption: ''
           subtitle: ''
-          description: "Bright and cozy single room with <strong>ensuite bathroom</strong> and <strong>private balcony</strong>. As all other\_rooms at the<strong> Bamboo Roma B&amp;B</strong> it is equipped with air conditioning, LCD television and a large\_space for your\_luggage. The ideal size for <strong>a business trip</strong>, enjoying the <strong>relaxation</strong> and <strong>tranquility</strong> of the guest house."
+          description: 'Accogliente stanza doppia con letto matrimoniale, luminosa e dotata di balcone privato. Tutti comfort tipici della struttura Bamboo B&B Roma, bagno privato, televisione lcd, climatizzatore ed ampio guardaroba. Il rifugio ideale per il vostro soggiorno romantico nella città eterna.'
           class: nopaddingall
           button: ''
           buttonlink: ''
@@ -718,7 +718,7 @@ content:
           content_title: ''
           author: ''
           leading_content: ''
-          main_content: 'Also, the Bamboo B&B is provided with a <strong>relax area</strong> where you''ll be able to spend your free time flipping through books and Rome tourist guides.'
+          main_content: 'Oltre al welcome kit al tuo arrivo riceverai  tutti i confort di un moderno alloggio : aria condizionata, televisore LCDe la connessione wi-fi free.'
           readmore_label: ''
           readmore_link: ''
           readmore_class: ''
@@ -730,7 +730,7 @@ content:
           content_title: ''
           author: ''
           leading_content: ''
-          main_content: 'The five rooms of Bed &amp; Breakfast Bamboo are each dedicated to an animal: <strong>Elephant, Lemur, Panda, Frog, Tiger</strong>.'
+          main_content: 'Le cinque camere del B&B sono dedicate ognuna ad un animale: Elefante, Lemure, Panda, Ranocchio e la Tigre. Sia che tu stia viaggiando per piacere, sia per lavoro, avrai la possibilità di dormire in un letto largo e comodo. Per chi invece ama viaggiare in compagnia o con la propria famiglia la nostra suite può ospitare fino a 4 persone.'
           readmore_label: ''
           readmore_link: ''
           readmore_class: ''
@@ -742,7 +742,7 @@ content:
           content_title: ''
           author: ''
           leading_content: ''
-          main_content: "Even if you're traveling alone for pleasure or business, you'll be able to sleep in the comfortable big bed of the Frog room. For those traveling with the company of family or friends the other rooms will accomodate up to <strong>4 people</strong>.\n"
+          main_content: 'Il bed & breakfast è inoltre dotato di una sala relax dove potrai passare il tempo sfogliando un libro o una guida di Roma.'
           readmore_label: ''
           readmore_link: ''
           readmore_class: ''
