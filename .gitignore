@@ -13,3 +13,6 @@ config.codekit
 user/data/gantry5/themes/rt_sienna/css-compiled/**
 user/data/gantry5/themes/rt_sienna/css-compiled
 logs
+logs/popularity/**
+logs/popularity
+cache
