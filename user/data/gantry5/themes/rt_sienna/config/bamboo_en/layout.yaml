@@ -143,8 +143,9 @@ layout:
           -
             - spacer-3620
           -
-            - 'simplecontent-3806 40'
-            - 'spacer-4143 60'
+            - 'simplecontent-3806 33.3'
+            - 'spacer-4143 33.3'
+            - 'simplecontent-4592 33.3'
           -
             - spacer-4015
           -
@@ -1030,6 +1031,24 @@ content:
           readmore_class: ''
           readmore_target: _self
           title: 'New item'
+  simplecontent-4592:
+    title: 'Simple Content'
+    attributes:
+      class: ''
+      title: ''
+      items:
+        -
+          layout: standard
+          created_date: ''
+          content_title: PAYMENTS
+          author: ''
+          leading_content: ''
+          main_content: "<i class=\"fa  fa-money\"></i> Cash <br>\n<i class=\"fa fa-credit-card\"></i> Bancomat <br>\n<i class=\"fa fa-cc-visa\"></i> Visa <br>\n<i class=\"fa fa-cc-paypal\"></i> Paypal <br>\n"
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: Payments
   spacer-4015:
     block:
       class: g-bordered-spacer

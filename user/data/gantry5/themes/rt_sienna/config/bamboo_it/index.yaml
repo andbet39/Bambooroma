@@ -1,5 +1,5 @@
 name: bamboo_it
-timestamp: 1517165726
+timestamp: 1517466772
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -74,6 +74,7 @@ particles:
     simplecontent-3902: 'Simple Content'
     simplecontent-6137: 'Simple Content'
     simplecontent-3806: 'Simple Content'
+    simplecontent-1531: 'Simple Content'
   simplemenu:
     simplemenu-8939: 'Simple Menu'
   bamboobooking:

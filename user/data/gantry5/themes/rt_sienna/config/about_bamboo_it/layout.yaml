@@ -64,9 +64,9 @@ layout:
       -
         'showcasemain 80':
           -
-            - 'spacer-spacer-1628 20'
+            - 'spacer-1628 20'
             - 'bambooform-2029 60'
-            - 'spacer-spacer-8913 20'
+            - 'spacer-8913 20'
       -
         'showcaseright 10': {  }
   /container-slideshow/:

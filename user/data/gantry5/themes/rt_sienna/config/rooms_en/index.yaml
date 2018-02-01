@@ -1,5 +1,5 @@
 name: rooms_en
-timestamp: 1517164212
+timestamp: 1517466682
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -63,6 +63,7 @@ particles:
     simplecontent-3044: 'Room header'
     simplecontent-9280: 'Simple Content'
     simplecontent-2177: 'Simple Content'
+    simplecontent-1180: 'Simple Content'
   position:
     position-position-8538: Sidebar
     position-position-8807: Aside
@@ -94,5 +95,6 @@ inherit:
     spacer-2916: spacer-3620
     simplecontent-2177: simplecontent-3806
     spacer-4112: spacer-4143
+    simplecontent-1180: simplecontent-4592
     spacer-2070: spacer-4015
     copyright-3600: copyright-5748
