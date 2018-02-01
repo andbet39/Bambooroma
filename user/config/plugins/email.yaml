@@ -2,18 +2,19 @@ enabled: true
 from: noreply@bambooroma.com
 from_name: 'Sito Bamboo'
 to: booking@bambooroma.com
-to_name: 'Andrea Terzani'
+to_name: BambooSite
 mailer:
-  engine: sendmail
+  engine: smtp
   smtp:
-    server: localhost
+    server: smtp.bambooroma.com
     port: 25
     encryption: none
-    user: andbet39
+    user: booking@bambooroma.com
     password: Giada123
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
 debug: false
-cc: andreaterzani@gmail.com
-cc_name: 'Andrea Terzani'
+bcc: andrea.terzani@gmail.com
+reply_to: noreply@bambooroma.com
+reply_to_name: 'BambooB&B'

@@ -16,11 +16,16 @@
 }
 /* line 8, user/data/gantry5/themes/rt_sienna/scss/custom.scss */
 .fp-feature-simplecontent {
-  background: url('../../../../../../../user/images/rt_sienna/back_offerta.jpg?5a6c56da') no-repeat;
+  background: url('../../../../../images/rt_sienna/back_offerta.jpg?5a6c56da') no-repeat;
+  background-size: cover;
 }
-/* line 12, user/data/gantry5/themes/rt_sienna/scss/custom.scss */
+/* line 13, user/data/gantry5/themes/rt_sienna/scss/custom.scss */
 .g-owlcarousel-layout-testimonial {
   /* padding: 4rem 0; */
   padding: 1rem 0;
   font-size: 1em;
+}
+/* line 20, user/data/gantry5/themes/rt_sienna/scss/custom.scss */
+#g-page-surround {
+  background-size: contain;
 }

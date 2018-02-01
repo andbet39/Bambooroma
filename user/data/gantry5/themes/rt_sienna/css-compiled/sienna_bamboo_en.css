@@ -147,7 +147,7 @@ body .g-middle-column {
 #g-page-surround {
   background: #fff;
   overflow: hidden;
-  background: url('../../../../../themes/rt_sienna/images/backgrounds/header/img-01.jpg?5a6c39df') no-repeat;
+  background: url('../../../../../themes/rt_sienna/images/backgrounds/header/img-01.jpg?5a72ac20') no-repeat;
   background-size: contain auto;
 }
 /* line 50, user/themes/rt_sienna/scss/sienna/styles/_body.scss */
@@ -1212,37 +1212,37 @@ a:hover {
   font-family: "muli";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/muli/muli-regular/muli-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.woff2?5a6c39de') format("woff2"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.woff?5a6c39de') format("woff"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.ttf?5a6c39de') format("truetype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.svg?5a6c39de#muli') format("svg");
+  src: url('../fonts/muli/muli-regular/muli-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.woff2?5a72ac20') format("woff2"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.woff?5a72ac20') format("woff"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.ttf?5a72ac20') format("truetype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-regular/muli-regular-webfont.svg?5a72ac20#muli') format("svg");
 }
 @font-face {
   font-family: "muli";
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/muli/muli-light/muli-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.woff2?5a6c39de') format("woff2"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.woff?5a6c39de') format("woff"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.ttf?5a6c39de') format("truetype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.svg?5a6c39de#muli') format("svg");
+  src: url('../fonts/muli/muli-light/muli-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.woff2?5a72ac20') format("woff2"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.woff?5a72ac20') format("woff"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.ttf?5a72ac20') format("truetype"), url('../../../../../themes/rt_sienna/fonts/muli/muli-light/muli-light-webfont.svg?5a72ac20#muli') format("svg");
 }
 @font-face {
   font-family: "playfairdisplay";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.woff2?5a6c39de') format("woff2"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.woff?5a6c39de') format("woff"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.ttf?5a6c39de') format("truetype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.svg?5a6c39de#playfairdisplay') format("svg");
+  src: url('../fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.woff2?5a72ac20') format("woff2"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.woff?5a72ac20') format("woff"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.ttf?5a72ac20') format("truetype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular-webfont.svg?5a72ac20#playfairdisplay') format("svg");
 }
 @font-face {
   font-family: "playfairdisplay";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.woff2?5a6c39de') format("woff2"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.woff?5a6c39de') format("woff"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.ttf?5a6c39de') format("truetype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.svg?5a6c39de#playfairdisplay') format("svg");
+  src: url('../fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.woff2?5a72ac20') format("woff2"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.woff?5a72ac20') format("woff"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.ttf?5a72ac20') format("truetype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold-webfont.svg?5a72ac20#playfairdisplay') format("svg");
 }
 @font-face {
   font-family: "playfairdisplay";
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.woff2?5a6c39de') format("woff2"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.woff?5a6c39de') format("woff"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.ttf?5a6c39de') format("truetype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.svg?5a6c39de#playfairdisplay') format("svg");
+  src: url('../fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.woff2?5a72ac20') format("woff2"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.woff?5a72ac20') format("woff"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.ttf?5a72ac20') format("truetype"), url('../../../../../themes/rt_sienna/fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black-webfont.svg?5a72ac20#playfairdisplay') format("svg");
 }
 @font-face {
   font-family: "weather";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.eot?5a6c39de#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.woff2?5a6c39de') format("woff2"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.woff?5a6c39de') format("woff"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.ttf?5a6c39de') format("truetype"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.svg?5a6c39de#weather') format("svg");
+  src: url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.eot?5a72ac20#iefix') format("embedded-opentype"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.woff2?5a72ac20') format("woff2"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.woff?5a72ac20') format("woff"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.ttf?5a72ac20') format("truetype"), url('../../../../../themes/rt_sienna/fonts/weather/artill_clean_icons-webfont.svg?5a72ac20#weather') format("svg");
 }
 /* line 8, user/themes/rt_sienna/scss/sienna/styles/_typography.scss */
 body {
@@ -2726,7 +2726,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .fp-feature-simplecontent {
   text-align: center;
   color: #fff;
-  background: url('../../../../../themes/rt_sienna/images/backgrounds/feature/img-05.jpg?5a6c39de') no-repeat;
+  background: url('../../../../../themes/rt_sienna/images/backgrounds/feature/img-05.jpg?5a72ac20') no-repeat;
   background-size: cover;
   margin-bottom: 2.625rem;
   display: -webkit-box;
